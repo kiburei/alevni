@@ -1,0 +1,32 @@
+<%= form_for(@share_sell_request, html: { class: 'form-horizontal'}) do |f| %>
+  <% if @share_sell_request.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@share_sell_request.errors.count, "error") %> prohibited this share_sell_request from being saved:</h2>
+
+      <ul>
+      <% @share_sell_request.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field form-group">
+    <%= f.hidden_field :property_id, :value => params[:property_id] %>
+  </div>
+  <div class="field form-group">
+    <!-- <%= f.label :no_of_shares %>: -->
+    <%= f.text_field :no_of_shares, :placeholder => "Shares you want to sell" %>
+  </div>
+  <div class="field form-group">
+    <!-- <%= f.label :sale_price %>: -->
+    <%= f.text_field :sale_price, :placeholder => "Your Sell Price" %>
+  </div>
+  <div class="field form-group">
+    <!-- <%= f.label :Days_of_validity %>: -->
+    <%= f.text_field :validity_days, :placeholder => "Enter Sell period" %>
+  </div>
+  <div class="actions form-group">
+    <%= f.submit %>
+  </div>
+<% end %>

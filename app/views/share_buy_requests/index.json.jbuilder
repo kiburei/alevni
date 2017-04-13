@@ -1,0 +1,1 @@
+json.array! @share_buy_requests, partial: 'share_buy_requests/share_buy_request', as: :share_buy_request

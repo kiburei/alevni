@@ -1,0 +1,90 @@
+[33mcommit 6c533f6a3c704ce8c895063f7a866c993c22828b[m
+Author: kiburei <akiburei@gmail.com>
+Date:   Fri Dec 2 15:14:10 2016 +0300
+
+    share module initial commit, scaffold
+
+[33mcommit e30e76152401310952ad718d92a257b6d4e54b86[m
+Author: kiburei <akiburei@gmail.com>
+Date:   Thu Dec 1 17:18:13 2016 +0300
+
+    Property Module Complete v0.0
+
+[33mcommit 39473e9fb1b35a26cf6e9cfc0ddc90cf2b93131b[m
+Author: kiburei <akiburei@gmail.com>
+Date:   Thu Dec 1 16:07:42 2016 +0300
+
+    master db commit
+
+[33mcommit 05c2ead04273058ab266c8c00cc55b094f3cc6dc[m
+Author: kiburei <akiburei@gmail.com>
+Date:   Thu Dec 1 15:10:36 2016 +0300
+
+    table update
+
+[33mcommit 540eee28f97a822dbf98d998066450395837cdf9[m
+Author: kiburei <akiburei@gmail.com>
+Date:   Thu Dec 1 14:58:00 2016 +0300
+
+    db alteration and new fields
+
+[33mcommit b10844c0e8119e5ec9afb1a030f5e486b69493c2[m
+Author: kiburei <akiburei@gmail.com>
+Date:   Wed Nov 30 11:07:12 2016 +0300
+
+    Slack Intergration
+
+[33mcommit c8efcd9ea628049359242117167c963092e4ac1b[m
+Merge: f011378 7f81a02
+Author: kiburei <akiburei@gmail.com>
+Date:   Wed Nov 30 11:03:29 2016 +0300
+
+    Merge branch 'master' of https://github.com/kiburei/TradingApp
+
+[33mcommit 7f81a023d1234f32837743b1cb0620713fbead5f[m
+Author: kiburei <gooddeeds17@gmail.com>
+Date:   Wed Nov 30 10:01:43 2016 +0300
+
+    Initial commit
+
+[33mcommit f011378cc9849b22717cdd35ef2da882cbad44db[m
+Author: kiburei <akiburei@gmail.com>
+Date:   Wed Nov 30 09:13:50 2016 +0300
+
+    Share Value Update
+
+[33mcommit 4c754de716c59f8c044afc515bea05cdca9b65af[m
+Author: kiburei <akiburei@gmail.com>
+Date:   Mon Nov 28 17:21:41 2016 +0300
+
+    apperciation by % Rate
+
+[33mcommit 3b3c59ccf5650f595d5c5efe698cad728afa9187[m
+Author: kiburei <akiburei@gmail.com>
+Date:   Mon Nov 28 17:14:50 2016 +0300
+
+    land appreciation
+
+[33mcommit 680ec2b040fa0bd204fa8fe689658f00c0f9802f[m
+Author: kiburei <akiburei@gmail.com>
+Date:   Mon Nov 28 17:13:23 2016 +0300
+
+    change money data types
+
+[33mcommit 46d478d262c2270cbee51ff6b802f9e013c3c34b[m
+Author: kiburei <akiburei@gmail.com>
+Date:   Mon Nov 28 16:26:28 2016 +0300
+
+    Devide Property into shares
+
+[33mcommit 1de742f09558e06fa1f4ab9ffbd4afd1163e6976[m
+Author: kiburei <akiburei@gmail.com>
+Date:   Mon Nov 28 15:37:37 2016 +0300
+
+    number to currency
+
+[33mcommit 73c36618a400d202099161e11a53b0c7824cd032[m
+Author: kiburei <akiburei@gmail.com>
+Date:   Mon Nov 28 13:44:44 2016 +0300
+
+    Initial framework and data stracture

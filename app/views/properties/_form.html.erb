@@ -1,0 +1,70 @@
+<%= form_for(@property) do |f| %>
+  <% if @property.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@property.errors.count, "error") %> prohibited this property from being saved:</h2>
+
+      <ul>
+      <% @property.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <!-- <div class="field">
+    <%= f.label :Code %><br>
+    <%= f.number_field :Code %>
+  </div> -->
+  <div class="details">
+    <h3>Offer Details</h3>
+    <div class="field">
+      <%= f.label :County %><br>
+      <%= f.text_field :County %>
+    </div>
+    <div class="field">
+      <%= f.label :Area %><br>
+      <%= f.text_area :locality, :rows => 10, style: 'width:50%;' %>
+    </div>
+  </div>
+  <div class="details">
+    <h3>Land Details</h3>
+    <div class="field">
+      <%= f.label :LR_Number %><br>
+      <%= f.text_field :LR %>
+    </div>
+    <div class="field">
+      <%= f.label :Area_of_land %><br>
+      <%= f.text_field :Area_of_land %>
+    </div>
+
+  </div>
+  <div class="field">
+    <%= f.label :Nature_of_title %><br>
+    <%= f.text_field :Title %>
+  </div>
+  <div class="field">
+    <%= f.label :Reason_for_selection_of_this_land %><br>
+    <%= f.text_area :Reason, :rows => 10, style: 'width:50%;' %>
+  </div>
+  <div class="field">
+    <%= f.label :Start %><br>
+    <%= f.date_select :StartOffer, :order => [:day, :month, :year] %>
+  </div>
+
+  <div class="field">
+    <%= f.label :Price %><br>
+    <%= f.number_field :Price %>
+  </div>
+  <div class="field">
+    <%= f.label :CurrentPrice %><br>
+    <%= f.number_field :CurrentPrice %>
+  </div>
+  <div class="field">
+    <%= f.label :Link_to_Brochure %><br>
+    <%= f.text_field :brochure %>
+
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

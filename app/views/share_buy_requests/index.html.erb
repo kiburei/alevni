@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Share Buy Requests</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Full Name</th>
+      <th>Quantity</th>
+      <th colspan="3">Total Cost</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @share_buy_requests.each do |share_buy_request| %>
+      <tr>
+        <td><%= Property.find(share_buy_request.property_id).Code %></td>
+        <td><%= User.find(share_buy_request.user_id).full_name %></td>
+        <td><%= share_buy_request.no_of_shares %></td>
+        <td>KES <%= share_buy_request.total %></td>
+        <% if current_user.superadmin_role? || current_user.supervisor_role? %>
+          <% if share_buy_request.transaction_id? %>
+              <td><label class="label label-success">Paid</label></td>
+          <% else %>
+              <td><label class="label label-warning">Pending Payment</label></td>
+          <% end %>
+        <% else %>
+            <% if share_buy_request.status == true %>
+              <td><label class="label label-success">Transfer Successfull</label></td>
+            <% else %>
+              <td><label class="label label-warning">Pending Transfer</label></td>
+            <% end %>
+        <% end %>
+        <td><%= link_to 'Show', share_buy_request, class: "btn btn-info"%></td>
+        <% if share_buy_request.transaction_id == nil %>
+          <td><%= link_to 'Cancel', share_buy_request, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %></td>
+        <% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+<!-- # <%= render "shared/payments" %> -->

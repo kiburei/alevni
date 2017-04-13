@@ -1,0 +1,61 @@
+<div class="top_nav">
+<div class="container-fluid">
+  <div class="col-md-14">
+    <div class="pull-left">
+    <%= link_to image_tag("log220x65_2x.jpg", height: 100, alt: "Home"),'/' %>
+    </div>
+    <div class="pull-right">
+      <div class="avatar">
+        <% if user_signed_in? %>
+          <%= link_to image_tag(current_user.avatar.url(:thumb), alt: "Upload Image"), '/users/edit' %>
+        <% end %>
+
+      </div>
+    </div>
+    <div class="pull-right">
+      <% if user_signed_in? %>
+      User Name: <%= current_user.full_name %>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      Status:<br>
+      Membership Number:<%= current_user.member_code %>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<br>
+      My Shares: <%= current_user.shares.count %>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      <%= link_to "Logout", destroy_user_session_path, :method => :delete, class: 'label label-danger' %>
+      <% end %>
+      </div>
+
+  </div>
+</div>
+</div
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand nav-tabs" href="/">Home</a>
+      <a class="navbar-brand nav-tabs" href="http://invela.co.ke/products---services.html" target="_blank">Plots For Sale</a>
+      <% if user_signed_in?  %>
+
+              <% if current_user.superadmin_role? || current_user.supervisor_role?%>
+              <a class="navbar-brand nav-tabs" href="/share_buy_requests">User Buy Requests</a>
+              <% else %>
+                <% if current_user.share_buy_requests.count > 0 %>
+                  <a class="navbar-brand nav-tabs" href="/share_buy_requests">My Buy Requests</a>
+                <% end %>
+              <% end %>
+
+              <% if current_user.superadmin_role? || current_user.supervisor_role? %>
+              <a class="navbar-brand nav-tabs" href="/share_sell_requests">User Sell Requests</a>
+              <% else %>
+                <% if current_user.share_sell_requests.count > 0 %>
+                  <a class="navbar-brand nav-tabs" href="/share_sell_requests">My Sell Requests</a>
+                <% end %>
+              <% end %>
+              <a class="navbar-brand nav-tabs" href="/" target="_blank">Important Documents</a>
+              <a class="navbar-brand nav-tabs" href="/users/edit">Profile</a>
+
+      <% end %>
+        <a class="navbar-brand nav-tabs" href="http://invela.co.ke" target="_blank">News and Events</a>
+        <a class="navbar-brand nav-tabs" href="http://invela.co.ke/contacts.html" target="_blank">Contacts</a>
+
+
+    </div>
+  </div>
+</nav>

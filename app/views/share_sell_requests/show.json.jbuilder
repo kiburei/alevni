@@ -1,0 +1,1 @@
+json.partial! "share_sell_requests/share_sell_request", share_sell_request: @share_sell_request

@@ -1,0 +1,2 @@
+module ShareBuyRequestsHelper
+end

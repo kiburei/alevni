@@ -1,0 +1,69 @@
+<p id="notice"><%= notice %></p>
+
+<div class="row">
+      <div class="col-md-6">
+        <label class="label label-default"><%= @property.Code %> Property Details</label>
+        <table class="table">
+          <tr class="success">
+            <td><strong>Your Total Share Value as Per Market Valuation</strong></td>
+            <td><% if @property.shares.where("status =?", true).count > 0 %>
+            KES <%= (@property.shares.where("status =?", true) && @property.shares.where("user_id =?", current_user)).count * @property.shares.find_by_status(true).value  %>
+            <% else %>
+              KES 0
+            <%end%></td>
+          </tr>
+          <tr class="success">
+            <td><strong>Property Location:</strong></td>
+            <td><%= @property.County %>, <%= @property.locality %>, <%= @property.Area_of_land %></td>
+          </tr>
+          <tr class="success">
+            <td><strong>Current Property Market Value:</strong></td>
+            <td>KES <%= @property.CurrentPrice %></td>
+          </tr>
+        </table>
+        <%= link_to 'Download Brochure', @property.brochure, target: '_blank', class: 'btn btn-info' %>
+        <!-- <button class="btn btn-info" name="button"><a href="" target="_blank"></a></button> -->
+        <% if current_user.superadmin_role? || current_user.supervisor_role? %>
+          <%= link_to 'Edit', edit_property_path(@property), class: "btn btn-info"%> |
+        <% end %>
+        <%= link_to 'Back', properties_path, class: "btn btn-info" %>
+
+      </div>
+      <div class="col-md-6">
+        <div class="pull-right">
+          <table class="table">
+            <label class="label label-default">User Shares On Sale</label>
+            <thead>
+              <tr>
+                <th>Property</th>
+                <th>Available Shares</th>
+                <th>Sale Price</th>
+                <th>Days to Close of Offer</th>
+                <th colspan="3"></th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <% @share_sell_requests.each do |share_sell_request| %>
+                <tr>
+                  <td><%= Property.find(share_sell_request.property_id).Code %></td>
+                  <% if share_sell_request.shares.where("status =?", false).count < 1 %>
+                    <td><label class="label label-danger">SOLD OUT!!</label></td>
+                  <% else %>
+                    <td><%= share_sell_request.shares.where("status =?", false).count %></td>
+                  <% end %>
+                  <td>KES <%= share_sell_request.sale_price %></td>
+                  <td><%= (share_sell_request.validity_days - Date.today).to_i%> Day(s)</td>
+                  <td><%= link_to new_property_share_buy_request_path(:property_id => @property, :share_sell_request_id => share_sell_request.id), remote: true, class: 'btn btn-success' do %>
+                    BUY<% end %></td>
+                  </td>
+                </tr>
+              <% end %>
+            </tbody>
+          </table>
+          <div class="buying">
+            <div id="buy_shares"></div>
+          </div>
+          </div>
+      </div>
+</div>

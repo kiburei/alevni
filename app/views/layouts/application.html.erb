@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TradingApp</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag 'landingpage', media: 'all' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="nav_bar">
+  <%= render 'shared/navigation' %>
+</div>
+  <div id="main-container" class="container-fluid">
+       <!-- <p class="notice"><%= notice %></p>
+       <p class="alert"><%= alert %></p> -->
+
+  <% if user_signed_in?%>
+    <% if Property.all.empty? == false && Property.last.EndOffer > Date.today %>
+      <div class="row offer">
+        <div class="trending col-md-12">
+             <h1>TRENDING OFFER!!!</h1>
+             <div class="col-md-3">
+               <h2><%= Property.last.locality %></h2>
+               <h4><%= Property.last.County %></h3>
+             </div>
+             <div class="col-md-3">
+               <h2><%= Property.last.Code %></h2>
+               <!-- <h2>Only <%= Property.last.shares.where(status: false).count %> shares remaining</h2> -->
+               <% if Property.last.shares.where(status: false).count < 1 %>
+                  <h2>SOLD OUT!!</h2>
+               <% end %>
+             </div>
+             <div class="col-md-3">
+               <h2>KES 10,000.00</h2>
+               <h2><%= (Property.last.EndOffer - Date.today).to_i %> Days To Go!!</h2>
+             </div>
+             <div class="col-md-3">
+               <%= link_to new_property_share_buy_request_path(:property_id => Property.last.id), class: 'btn btn-success' do %>
+                 BUY NOW <% end %></p>
+              <button class="btn btn-info" name="button"><a href="" target="_blank">Download Brochure</a></button>
+             </div>
+        </div>
+      </div>
+
+    <% end %>
+  <% end %>
+  <div id="main-container" class="container-fluid">
+            <div class="row">
+              <div id="content" class="col-xs-11">
+               <div class="appcon">
+                <div class="table-responsive">
+                  <%= yield %>
+                </div>
+                </div>
+              </div>
+            </div>
+  </div>
+  <div class="jstspc">
+
+  </div>
+</div>
+
+</body>
+
+<div class="">
+  <p class="ftext"align="center">
+    <%= link_to image_tag('fb.png', height: 50), 'https://www.facebook.com/', target: :_blank %>
+    <%= link_to image_tag('wa.png', height: 50), 'https://web.whatsapp.com/', target: :_blank %>
+    <%= link_to image_tag('yt.png', height: 50), 'https://www.youtube.com/', target: :_blank %>
+    <%= link_to image_tag('tw.png', height: 50), 'https://twitter.com/', target: :_blank %>
+
+  </p>
+</div>
+</html>

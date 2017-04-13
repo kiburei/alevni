@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Share Sell Requests</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>User</th>
+      <th>Number of Shares</th>
+      <th>Sale Price</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @share_sell_requests.each do |share_sell_request| %>
+      <tr>
+        <td><%= Property.find(share_sell_request.property_id).Code %></td>
+        <td><%= User.find(share_sell_request.user_id).full_name %></td>
+        <td><%= Share.where(share_sell_request_id: share_sell_request.id).count %></td>
+        <td><%= share_sell_request.sale_price %></td>
+        <% if share_sell_request.shares.count < 1 %>
+          <td>Sold Out</td>
+        <% else %>
+          <td><label class="label label-warning"><%= share_sell_request.no_of_shares - share_sell_request.shares.count %> Shares Sold</label></td>
+        <% end %>
+        <td><%= link_to 'Show', share_sell_request, class: 'btn btn-info' %></td>
+        <!-- <td><%= link_to 'Edit', edit_share_sell_request_path(share_sell_request), class: 'btn btn-warning' %></td> -->
+        <% if current_user.superadmin_role || current_user.supervisor_role %>
+          <td><%= link_to 'Cancel', share_sell_request, method: :delete, data: { confirm: 'Are you sure?' },  class: 'btn btn-danger' %></td>
+        <% else %>
+          <% if share_sell_request.validity_days < Date.today %>
+            <td><%= link_to 'Cancel', share_sell_request, method: :delete, data: { confirm: 'Are you sure?' },  class: 'btn btn-danger' %></td>
+          <% end %>
+        <% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Share sell request', new_share_sell_request_path %>

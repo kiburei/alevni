@@ -1,0 +1,187 @@
+body {
+  // background-color: #3A5311;
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.modals {
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+}
+
+.buying {
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 150px;
+  // border-style: double;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav.main {
+  color: green;
+}
+.top_nav {
+  background-color: #3A5311;
+
+}
+/* unvisited link */
+a:link {
+    color: #ffffff;
+}
+
+/* visited link */
+a:visited {
+    color: #ffffff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #6A0304;
+    background-color: #ffffff;
+}
+
+.trending {
+  background: rgba(0, 0, 0, 0.85);
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.offer {
+  background-image: image-url("td2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.trending h1 {
+  font-family: fantasy;
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: ultra-expanded;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+.nav_bar {
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #ffffff 0%, #465132 100%);
+  background: -webkit-linear-gradient(top, #ffffff 0%,#465132 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#465132',GradientType=0 );
+  text-decoration-color: none;
+  text-align: center;
+  color: #ffffff;
+
+}
+.login:before {
+  border: 2px solid #3A5311;
+  border-radius: 4px;
+  width: 35%;
+
+}
+input[type=text] {
+    border: 2px solid #3A5311;
+    border-radius: 4px;
+    width: 22%;
+    padding-left: 2px;
+}
+
+input[type=password] {
+    border: 2px solid #3A5311;
+    border-radius: 4px;
+    width: 22%;
+    padding-left: 2px;
+}
+
+select {
+    padding: 16px 20px;
+    border: 2px solid #3A5311;
+    border-radius: 4px;
+}
+input[type=number]{
+    border: 2px solid #3A5311;
+    border-radius: 4px;
+    width: 35%;
+}
+.appcon {
+  background-color: #f2f2f2;
+  border: 2px solid #3A5311;
+  border-radius: 4px;
+  width: 100%;
+  min-height: 300px;
+  padding: 20px 20px 20px 20px;
+}
+
+.jstspc{
+min-height: 60px;
+}
+
+.copyright_bar {
+  background-color: #3A5311;
+  height: 30px;
+  position: static;
+  bottom: 0;
+  width: 100%;
+
+
+}
+.panel-footer {
+  height: 100px;
+  position: static;
+  bottom: 30px;
+  width: 100%;
+}
+.ftext{
+  font-style: normal;
+  text-decoration-color: #ffffff;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}

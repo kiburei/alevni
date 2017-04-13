@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+This is the Offer Agreement dated <%= @share_sell_request.created_at %> between, <%= current_user.full_name %> and Invela Securites Ltd.<br>
+I have decided to sell <%= @share_sell_request.no_of_shares %> Shares at the cost of KES <%= @share_sell_request.sale_price %> per share.<br>
+The Offer is valid up to <%= @share_sell_request.validity_days %></p>
+Invela Securities Ltd is expected to pay me for the shares purchased within 2 days in the form of Bank Transfer </p>
+
+
+<!-- # <% if current_user.superadmin_role? || current_user.supervisor_role? %>
+#   <% if @share_sell_request.status == false %>
+#     <%= link_to 'Transfer Shares', sale_transfer_share_sell_request_path(id: @share_sell_request.id) %>
+#   <% end %>
+# <% end %> -->
+<!-- # <%= link_to 'Edit', edit_share_sell_request_path(@share_sell_request) %> | -->
+<%= link_to 'Back', share_sell_requests_path, class: 'btn btn-info' %>

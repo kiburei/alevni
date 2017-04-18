@@ -54,10 +54,12 @@
           BUY <%= property.shares.where(user_id: nil, status: false).count %><% end %></td> -->
         <td><%= link_to property, class: 'btn btn-success' do %>
            <%= property.shares.where.not(user_id: nil, status: true).count %><% end %></td>
-        <% if current_user.user_role? || current_user.user_role? %>
-        <td><%= link_to new_property_share_sell_request_path(:property_id => property.id), remote: true, class: 'btn btn-danger'  do %>
-          <i class="glyphicon glyphicon-minus"></i>Sell <% end %>
-        </td>
+        <% if current_user.user_role? || current_user.user_role?%>
+         <% if property.shares.where("user_id =?", current_user).count > 0 %>
+           <td><%= link_to new_property_share_sell_request_path(:property_id => property.id), remote: true, class: 'btn btn-danger'  do %>
+             <i class="glyphicon glyphicon-minus"></i>Sell <% end %>
+           </td>
+         <% end %>
         <% end %>
         <td><%= link_to 'Show', property, class: 'btn btn-info' %></td>
         <% if current_user.superadmin_role? || current_user.supervisor_role? %>

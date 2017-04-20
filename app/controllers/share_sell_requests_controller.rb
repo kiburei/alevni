@@ -82,7 +82,8 @@ class ShareSellRequestsController < ApplicationController
         format.html { redirect_to @share_sell_request, notice: 'Share sell request was successfully created.' }
         format.json { render :show, status: :created, location: @share_sell_request }
       else
-        format.html { render :new }
+        format.html { redirect_to root_path, notice: 'Your Share Sell request was invalid, please enter a valid value.' }
+        # format.html { render :new }
         format.json { render json: @share_sell_request.errors, status: :unprocessable_entity }
       end
     end

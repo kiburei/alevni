@@ -66,11 +66,12 @@ class ShareBuyRequestsController < ApplicationController
          @shares.where("status =?", false).order("id").limit(@share_buy_request.no_of_shares).update_all(status: true, share_buy_request_id: @share_buy_request.id)
         #  UserMailer.user_email(@share_buy_request.user_id).deliver
 
-        format.html { redirect_to @share_buy_request, notice: 'Share buy request was successfully created.' }
+        format.html { redirect_to @property, notice: 'Share buy request was successfully created.' }
         format.json { render :show, status: :created, location: @share_buy_request }
         format.js
       else
-        format.html { render :new }
+        format.html { redirect_to @share_buy_request, notice: 'Share buy request not successfully created.' }
+        # format.html { render :new }
         format.json { render json: @share_buy_request.errors, status: :unprocessable_entity }
         format.js
       end

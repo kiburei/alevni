@@ -16,6 +16,7 @@ Rails.application.routes.draw do
   get "share_sell_requests/:id/sale_transfer" => 'share_sell_requests#sale_transfer', as: :sale_transfer_share_sell_request
   get "share_sell_requests/:id/buy_user_shares" => 'share_sell_requests#buy_user_shares', as: :buy_user_shares_share_sell_request
 
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

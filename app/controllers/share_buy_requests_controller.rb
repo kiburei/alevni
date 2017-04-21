@@ -64,6 +64,7 @@ class ShareBuyRequestsController < ApplicationController
     respond_to do |format|
       if @share_buy_request.save && @shares.where("status =?", false).count >= @share_buy_request.no_of_shares
          @shares.where("status =?", false).order("id").limit(@share_buy_request.no_of_shares).update_all(status: true, share_buy_request_id: @share_buy_request.id)
+         UserMailer.purchase(@share_buy_request.user_id).deliver
         #  UserMailer.user_email(@share_buy_request.user_id).deliver
 
         format.html { redirect_to @share_buy_request, notice: 'Share buy request was successfully created.' }

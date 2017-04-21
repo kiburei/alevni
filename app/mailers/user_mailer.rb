@@ -1,12 +1,21 @@
 class UserMailer < ApplicationMailer
-  default from: 'gooddeeds17@gmail.com'
+  default from: 'member@invela.co.ke'
   layout 'mailer'
 
   def user_email(user)
-    @user = User.find(1)
-    puts @user
-    mail(to: @user.email, subject: 'Sample Email', body: 'You have requested to purchase x number of shars from property 700X located in X. Payments for the said shares are to be made withing 48hours of receiving this request else the reserved shares will be cancelled.')
+    @user = user
+    mail(to: @user.email, subject: 'Thanks for signing up for our amazing app')
   end
 
+  def purchase(user_id)
+    @user = User.find(user_id)
+    mail(to: @user.email, subject: 'Interest to buy shares')
+  end
+
+  def sell(user_id)
+    @user = User.find(user_id)
+    mail(to: @user.email, subject: 'Interest to sell shares')
+
+  end
 
 end

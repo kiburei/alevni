@@ -59,6 +59,8 @@
            <td><%= link_to new_property_share_sell_request_path(:property_id => property.id), remote: true, class: 'btn btn-danger'  do %>
              <i class="glyphicon glyphicon-minus"></i>Sell <% end %>
            </td>
+           <% else %>
+            <td> </td>
          <% end %>
         <% end %>
         <td><%= link_to 'Show', property, class: 'btn btn-info' %></td>

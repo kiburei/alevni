@@ -1,3 +1,5 @@
+
+
 <div class="top_nav">
 <div class="container-fluid">
   <div class="col-md-14">
@@ -28,34 +30,93 @@
 </div
 <nav class="navbar navbar-default" role="navigation">
   <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand nav-tabs" href="/">Home</a>
-      <a class="navbar-brand nav-tabs" href="http://invela.co.ke/products---services.html" target="_blank">Plots For Sale</a>
-      <% if user_signed_in?  %>
+    <span class="menu">
+      <div class="navbar-header">
+        <a class="navbar-brand nav-tabs" href="/">Home</a>
+        <a class="navbar-brand nav-tabs" href="http://invela.co.ke/products---services.html" target="_blank">Plots For Sale</a>
+        <% if user_signed_in?  %>
 
-              <% if current_user.superadmin_role? || current_user.supervisor_role?%>
-              <a class="navbar-brand nav-tabs" href="/share_buy_requests">User Buy Requests</a>
-              <% else %>
-                <% if current_user.share_buy_requests.count > 0 %>
-                  <a class="navbar-brand nav-tabs" href="/share_buy_requests">My Buy Requests</a>
+                <% if current_user.superadmin_role? || current_user.supervisor_role?%>
+                <a class="navbar-brand nav-tabs" href="/share_buy_requests">User Buy Requests</a>
+                <% else %>
+                  <% if current_user.share_buy_requests.count > 0 %>
+                    <a class="navbar-brand nav-tabs" href="/share_buy_requests">My Buy Requests</a>
+                  <% end %>
                 <% end %>
-              <% end %>
 
-              <% if current_user.superadmin_role? || current_user.supervisor_role? %>
-              <a class="navbar-brand nav-tabs" href="/share_sell_requests">User Sell Requests</a>
-              <% else %>
-                <% if current_user.share_sell_requests.count > 0 %>
-                  <a class="navbar-brand nav-tabs" href="/share_sell_requests">My Sell Requests</a>
+                <% if current_user.superadmin_role? || current_user.supervisor_role? %>
+                <a class="navbar-brand nav-tabs" href="/share_sell_requests">User Sell Requests</a>
+                <% else %>
+                  <% if current_user.share_sell_requests.count > 0 %>
+                    <a class="navbar-brand nav-tabs" href="/share_sell_requests">My Sell Requests</a>
+                  <% end %>
                 <% end %>
-              <% end %>
-              <a class="navbar-brand nav-tabs" href="/" target="_blank">Important Documents</a>
-              <a class="navbar-brand nav-tabs" href="/users/edit">Profile</a>
+                <a class="navbar-brand nav-tabs" href="/" target="_blank">Important Documents</a>
+                <a class="navbar-brand nav-tabs" href="/users/edit">Profile</a>
 
-      <% end %>
-        <a class="navbar-brand nav-tabs" href="http://invela.co.ke" target="_blank">News and Events</a>
-        <a class="navbar-brand nav-tabs" href="http://invela.co.ke/contacts.html" target="_blank">Contacts</a>
+        <% end %>
+          <a class="navbar-brand nav-tabs" href="http://invela.co.ke" target="_blank">News and Events</a>
+          <a class="navbar-brand nav-tabs" href="http://invela.co.ke/contacts.html" target="_blank">Contacts</a>
 
 
-    </div>
+      </div>
+    </span>
+    <span class="icon">
+      <!-- <%= link_to image_tag("menu.png", height: 20, alt: "Menu") %> -->
+      <button onclick="myFunction()" class="dropbtn"><div class="menuicon"></div><div class="menuicon"></div><div class="menuicon"></div></button>
+        <div id="myDropdown" class="dropdown-content">
+          <a class="" href="/">Home</a>
+          <a class="" href="http://invela.co.ke/products---services.html" target="_blank">Plots For Sale</a>
+          <% if user_signed_in?  %>
+
+                  <% if current_user.superadmin_role? || current_user.supervisor_role?%>
+                  <a class="" href="/share_buy_requests">User Buy Requests</a>
+                  <% else %>
+                    <% if current_user.share_buy_requests.count > 0 %>
+                      <a class="" href="/share_buy_requests">My Buy Requests</a>
+                    <% end %>
+                  <% end %>
+
+                  <% if current_user.superadmin_role? || current_user.supervisor_role? %>
+                  <a class="" href="/share_sell_requests">User Sell Requests</a>
+                  <% else %>
+                    <% if current_user.share_sell_requests.count > 0 %>
+                      <a class="" href="/share_sell_requests">My Sell Requests</a>
+                    <% end %>
+                  <% end %>
+                  <a class="" href="/" target="_blank">Important Documents</a>
+                  <a class="" href="/users/edit">Profile</a>
+
+          <% end %>
+            <a class="" href="http://invela.co.ke" target="_blank">News and Events</a>
+            <a class="" href="http://invela.co.ke/contacts.html" target="_blank">Contacts</a>
+
+        </div>
+    </span>
   </div>
 </nav>
+
+<script type="text/javascript">
+
+  /* When the user clicks on the button,
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+  }
+
+  // Close the dropdown menu if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+
+</script>

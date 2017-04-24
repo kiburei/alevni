@@ -15,10 +15,3 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require_tree .
-
-$(document).ready(function(){
-  $("mpesa").click(function(event){
-      var cow = "I am a cow"
-      console.log("cow and chicken");
-  });
-});

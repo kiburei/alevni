@@ -30,14 +30,14 @@ You have expressed interest to buy <%= @share_buy_request.no_of_shares %> shares
     <tr>
       <td><%= Property.find(@share_buy_request.property_id).Code %></td>
       <td><%= Property.find(@share_buy_request.property_id).County %> Plot No: <%= Property.find(@share_buy_request.property_id).LR %></td>
-      <td>KES<%= (@share_buy_request.no_of_shares * 300).to_d %></td>
+      <td><%= number_to_currency((@share_buy_request.no_of_shares * 300).to_d, :unit => "Ksh") %></td>
       <td><%= @share_buy_request.no_of_shares %></td>
       <% if @share_buy_request.shares.first.share_sell_request_id? %>
-        <td><%= ShareSellRequest.find(@share_buy_request.share_sell_request_id).sale_price %></td>
+        <td><%= number_to_currency(ShareSellRequest.find(@share_buy_request.share_sell_request_id).sale_price, :unit => "Ksh") %></td>
       <% else %>
-        <td><%= Property.find(@share_buy_request.property_id).ShareValue %></td>
+        <td><%= number_to_currency(Property.find(@share_buy_request.property_id).ShareValue, :unit => "Ksh") %></td>
       <% end %>
-      <td>KES<%= @share_buy_request.total %></td>
+      <td><%= number_to_currency(@share_buy_request.total, :unit => "Ksh") %></td>
     </tr>
   </tbody>
 </table>

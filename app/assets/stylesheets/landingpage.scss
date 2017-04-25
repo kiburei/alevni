@@ -259,3 +259,26 @@ div .menuicon {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+#menu-link {
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.btn-signup {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 29px;
+  font-size: 13px;
+  border: none;
+}
+.value {
+  text-align: center;
+  color: #3A5311;
+  font-size: 50px;
+  // box-shadow: 1px 2px 5px 1px;
+  // background-color: white;
+  // margin: 25px;
+}

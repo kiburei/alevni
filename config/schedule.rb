@@ -18,6 +18,10 @@
     runner UserMailer.purchase(user).deliver_later
     runner UserMailer.sell(user).deliver_later
   end
+
+  every 1.minutes do
+    runner User.update
+  end
 #
 # every 4.days do
 #   runner "AnotherModel.prune_old_records"

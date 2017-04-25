@@ -18,7 +18,7 @@
         <td><%= Property.find(share_buy_request.property_id).Code %></td>
         <td><%= User.find(share_buy_request.user_id).full_name %></td>
         <td><%= share_buy_request.no_of_shares %></td>
-        <td>KES <%= share_buy_request.total %></td>
+        <td><%= number_to_currency(share_buy_request.total, :unit => "Ksh") %></td>
         <% if current_user.superadmin_role? || current_user.supervisor_role? %>
           <% if share_buy_request.transaction_id? %>
               <td><label class="label label-success">Paid</label></td>

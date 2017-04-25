@@ -1,7 +1,7 @@
 <p id="notice"><%= notice %></p>
 
 This is the Offer Agreement dated <%= @share_sell_request.created_at %> between, <%= current_user.full_name %> and Invela Securites Ltd.<br>
-I have decided to sell <%= @share_sell_request.no_of_shares %> Shares at the cost of KES <%= @share_sell_request.sale_price %> per share.<br>
+I have decided to sell <%= @share_sell_request.no_of_shares %> Shares at the cost of <%= number_to_currency(@share_sell_request.sale_price, :unit => "Ksh") %> per share.<br>
 The Offer is valid up to <%= @share_sell_request.validity_days %></p>
 Invela Securities Ltd is expected to pay me for the shares purchased within 2 days in the form of Bank Transfer </p>
 

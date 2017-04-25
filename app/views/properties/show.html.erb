@@ -7,9 +7,10 @@
           <tr class="success">
             <td><strong>Your Total Share Value as Per Market Valuation</strong></td>
             <td><% if @property.shares.where("status =?", true).count > 0 %>
-            KES <%= (@property.shares.where("status =?", true) && @property.shares.where("user_id =?", current_user)).count * @property.shares.find_by_status(true).value  %>
+              <% sharevalue = (@property.shares.where("status =?", true) && @property.shares.where("user_id =?", current_user)).count * @property.shares.find_by_status(true).value  %>
+              <%= number_to_currency(sharevalue, :unit => "Ksh") %>
             <% else %>
-              KES 0
+              Ksh 0.00
             <%end%></td>
           </tr>
           <tr class="success">
@@ -18,7 +19,7 @@
           </tr>
           <tr class="success">
             <td><strong>Current Property Market Value:</strong></td>
-            <td>KES <%= @property.CurrentPrice %></td>
+            <td>KES <%= number_to_currency(@property.CurrentPrice, :unit => "Ksh") %></td>
           </tr>
         </table>
         <%= link_to 'Download Brochure', @property.brochure, target: '_blank', class: 'btn btn-info' %>

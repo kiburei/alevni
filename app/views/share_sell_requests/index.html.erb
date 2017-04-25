@@ -19,7 +19,7 @@
         <td><%= Property.find(share_sell_request.property_id).Code %></td>
         <td><%= User.find(share_sell_request.user_id).full_name %></td>
         <td><%= Share.where(share_sell_request_id: share_sell_request.id).count %></td>
-        <td><%= share_sell_request.sale_price %></td>
+        <td><%= number_to_currency(share_sell_request.sale_price, :unit => "Ksh") %></td>
         <% if share_sell_request.shares.count < 1 %>
           <td>Sold Out</td>
         <% else %>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="shortcut icon" href="favicon.png">
   <title>TradingApp</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= stylesheet_link_tag 'landingpage', media: 'all' %>
@@ -51,19 +52,34 @@
                <div class="appcon">
                 <div class="table-responsive">
                   <%= yield %>
+                  <% if user_signed_in? %>
+                    <div class="value">
+                      Total Share Value:
+                      <% total = [] %>
+                      <% Share.where(user_id: current_user).each do |value| %>
+                      <% total << value.value %>
+                      <% sum = total.map(&:to_i).reduce(0, :+) %>
+                        <% if value == Share.where(user_id: current_user).last %>
+                          <%= number_to_currency(sum, :unit => "Ksh") %>
+                        <% end %>
+                      <% end %>
+
+
+                      <!-- Total Share Value: KES: 1,250,000!! </p> -->
+                    </div>
+                  <% end %>
                 </div>
                 </div>
               </div>
+
             </div>
   </div>
-  <div class="jstspc">
 
-  </div>
+
 </div>
 
 </body>
 
-<div class="">
   <p class="ftext"align="center">
     <%= link_to image_tag('fb.png', height: 50), 'https://www.facebook.com/invela/', target: :_blank %>
     <%= link_to image_tag('wa.png', height: 50), 'https://web.whatsapp.com/', target: :_blank %>
@@ -71,5 +87,4 @@
     <%= link_to image_tag('tw.png', height: 50), 'https://twitter.com/Invela_Ke', target: :_blank %>
 
   </p>
-</div>
 </html>

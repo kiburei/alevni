@@ -10,9 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170413064719) do
+ActiveRecord::Schema.define(version: 20170425201733) do
 
-  create_table "admins", force: :cascade do |t|
+  create_table "admins", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string   "email"
     t.string   "encrypted_password"
     t.datetime "created_at",                         null: false
@@ -25,20 +25,20 @@ ActiveRecord::Schema.define(version: 20170413064719) do
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
-    t.index ["email"], name: "index_admins_on_email", unique: true
-    t.index ["reset_password_token"], name: "index_admins_on_reset_password_token", unique: true
+    t.index ["email"], name: "index_admins_on_email", unique: true, using: :btree
+    t.index ["reset_password_token"], name: "index_admins_on_reset_password_token", unique: true, using: :btree
   end
 
-  create_table "properties", force: :cascade do |t|
+  create_table "properties", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.integer  "Code"
     t.string   "County"
-    t.decimal  "Price",        precision: 8, scale: 2
-    t.datetime "created_at",                           null: false
-    t.datetime "updated_at",                           null: false
-    t.decimal  "CurrentPrice", precision: 8, scale: 2
+    t.decimal  "Price",        precision: 11, scale: 2
+    t.datetime "created_at",                            null: false
+    t.datetime "updated_at",                            null: false
+    t.decimal  "CurrentPrice", precision: 11, scale: 2
     t.integer  "Shares"
-    t.decimal  "Rate",         precision: 8, scale: 2
-    t.decimal  "ShareValue",   precision: 8, scale: 2
+    t.decimal  "Rate",         precision: 8,  scale: 2
+    t.decimal  "ShareValue",   precision: 11, scale: 2
     t.string   "locality"
     t.string   "LR"
     t.string   "Title"
@@ -48,23 +48,23 @@ ActiveRecord::Schema.define(version: 20170413064719) do
     t.integer  "user_id"
     t.string   "Area_of_land"
     t.string   "brochure"
-    t.index ["user_id"], name: "index_properties_on_user_id"
+    t.index ["user_id"], name: "index_properties_on_user_id", using: :btree
   end
 
-  create_table "share_buy_requests", force: :cascade do |t|
+  create_table "share_buy_requests", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.integer  "property_id"
     t.integer  "user_id"
     t.integer  "no_of_shares"
-    t.datetime "created_at",                                                    null: false
-    t.datetime "updated_at",                                                    null: false
-    t.boolean  "status",                                        default: false
+    t.datetime "created_at",                                                     null: false
+    t.datetime "updated_at",                                                     null: false
+    t.boolean  "status",                                         default: false
     t.integer  "share_sell_request_id"
-    t.decimal  "total",                 precision: 8, scale: 2
+    t.decimal  "total",                 precision: 11, scale: 2
     t.string   "transaction_id"
-    t.index ["share_sell_request_id"], name: "index_share_buy_requests_on_share_sell_request_id"
+    t.index ["share_sell_request_id"], name: "index_share_buy_requests_on_share_sell_request_id", using: :btree
   end
 
-  create_table "share_sell_requests", force: :cascade do |t|
+  create_table "share_sell_requests", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.integer  "property_id"
     t.integer  "user_id"
     t.integer  "no_of_shares"
@@ -75,25 +75,25 @@ ActiveRecord::Schema.define(version: 20170413064719) do
     t.date     "validity_days"
   end
 
-  create_table "shares", force: :cascade do |t|
+  create_table "shares", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string   "code"
-    t.decimal  "value"
+    t.decimal  "value",                 precision: 10
     t.date     "period"
-    t.datetime "created_at",                            null: false
-    t.datetime "updated_at",                            null: false
+    t.datetime "created_at",                                           null: false
+    t.datetime "updated_at",                                           null: false
     t.integer  "property_id"
     t.integer  "user_id"
-    t.boolean  "status",                default: false
+    t.boolean  "status",                               default: false
     t.integer  "share_buy_request_id"
     t.integer  "share_sell_request_id"
     t.string   "cert_code"
-    t.index ["property_id"], name: "index_shares_on_property_id"
-    t.index ["share_buy_request_id"], name: "index_shares_on_share_buy_request_id"
-    t.index ["share_sell_request_id"], name: "index_shares_on_share_sell_request_id"
-    t.index ["user_id"], name: "index_shares_on_user_id"
+    t.index ["property_id"], name: "index_shares_on_property_id", using: :btree
+    t.index ["share_buy_request_id"], name: "index_shares_on_share_buy_request_id", using: :btree
+    t.index ["share_sell_request_id"], name: "index_shares_on_share_sell_request_id", using: :btree
+    t.index ["user_id"], name: "index_shares_on_user_id", using: :btree
   end
 
-  create_table "users", force: :cascade do |t|
+  create_table "users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string   "email",                  default: "",    null: false
     t.string   "encrypted_password",     default: "",    null: false
     t.string   "reset_password_token"
@@ -128,8 +128,14 @@ ActiveRecord::Schema.define(version: 20170413064719) do
     t.string   "bank"
     t.string   "bank_branch"
     t.string   "bank_ac"
-    t.index ["email"], name: "index_users_on_email", unique: true
-    t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
+    t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
+    t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
   end
 
+  add_foreign_key "properties", "users"
+  add_foreign_key "share_buy_requests", "share_sell_requests"
+  add_foreign_key "shares", "properties"
+  add_foreign_key "shares", "share_buy_requests"
+  add_foreign_key "shares", "share_sell_requests"
+  add_foreign_key "shares", "users"
 end

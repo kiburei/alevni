@@ -3,76 +3,73 @@
   <div id="buy_shares"></div>
   <div id="sell_shares"></div>
 </div>
-<table class="table">
-  <thead>
-    <tr class="success">
-      <th>Code</th>
-			<th>Your Shares</th>
-			<th>Market ShareValue</th>
-			<th>Liquidation date</th>
-      <!-- <th>Start of Offer Period</th>
-      <th>End of Offer Period</th> -->
-      <% if current_user.superadmin_role? || current_user.supervisor_role? %>
-      <th>Price</th>
-      <th>Current Price</th>
-			<th>County</th>
-      <th>Locality</th>
-      <th>LR No</th>
-      <th>Title Type</th>
-      <th>Reason of Property</th>
-      <% end %>
-      <th>% Appreciation</th>
-      <th>Available Shares To Buy</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @properties. reverse_each do |property| %>
-        <tr class="active">
-        <td id="code"><%= property.Code %></td>
-        <td><%= property.shares.where("user_id =?", current_user).count %></td>
-				<td></i><%= number_to_currency(property.ShareValue, :unit => "Ksh") %></td>
-        <td><%= property.EndOffer + 7.years - 1.day %></td>
-        <!-- <td><%= property.StartOffer %></td>
-        <% if property.EndOffer > Date.today %>
-        <td><%= property.EndOffer %></td>
-        <% else %>
-        <td>Offer Expired</td>
-        <% end %> -->
+<div style="height:300px; overflow:auto;">
+  <table class="table">
+    <thead>
+      <tr class="success">
+        <th>Code</th>
+  			<th>Your Shares</th>
+  			<th>Market ShareValue</th>
+  			<th>Liquidation date</th>
+        <!-- <th>Start of Offer Period</th>
+        <th>End of Offer Period</th> -->
         <% if current_user.superadmin_role? || current_user.supervisor_role? %>
-        <td><%=number_to_currency(property.Price, :unit => "Ksh")%></td>
-        <td><%=number_to_currency(property.CurrentPrice, :unit => "Ksh") %></td>
-				<td><%= property.County %></td>
-        <td><%= property.locality %></td>
-        <td><%= property.LR %></td>
-        <td><%= property.Title %></td>
-        <td><%= property.Reason %></td>
+        <th>Price</th>
+        <th>Current Price</th>
+  			<th>County</th>
+        <th>Locality</th>
+        <th>LR No</th>
+        <th>Title Type</th>
+        <th>Reason of Property</th>
         <% end %>
-        <td><%= property.Rate %>%</td>
-        <!-- <td><%= link_to new_property_share_buy_request_path(:property_id => property.id), remote: true, class: 'btn btn-success' do %>
-          BUY <%= property.shares.where(user_id: nil, status: false).count %><% end %></td> -->
-        <td><%= link_to property, class: 'btn btn-success' do %>
-           <%= property.shares.where.not(user_id: nil, status: true).count %><% end %></td>
-        <% if current_user.user_role? || current_user.user_role?%>
-         <% if property.shares.where("user_id =?", current_user).count > 0 %>
-           <td><%= link_to new_property_share_sell_request_path(:property_id => property.id), remote: true, class: 'btn btn-danger'  do %>
-             <i class="glyphicon glyphicon-minus"></i>Sell <% end %>
-           </td>
-           <% else %>
-            <td> </td>
-         <% end %>
-        <% end %>
-        <td><%= link_to 'Show', property, class: 'btn btn-info' %></td>
-        <% if current_user.superadmin_role? || current_user.supervisor_role? %>
-        <td><%= link_to 'Edit', edit_property_path(property), class: 'btn btn-warning' %></td>
-        <td><%= link_to 'Destroy', property, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %></td>
-        <% end %>
+        <th>% Appreciation</th>
+        <th>Available Shares To Buy</th>
+        <th colspan="3"></th>
       </tr>
-    <% end %>
-  </tbody>
-</table>
+    </thead>
 
+    <tbody>
+      <% @properties. reverse_each do |property| %>
+          <tr class="active">
+          <td id="code"><%= property.Code %></td>
+          <td><%= property.shares.where("user_id =?", current_user).count %></td>
+  				<td></i><%= number_to_currency(property.ShareValue, :unit => "Ksh") %></td>
+          <td><%= property.EndOffer + 7.years - 1.day %></td>
+          <% if current_user.superadmin_role? || current_user.supervisor_role? %>
+          <td><%=number_to_currency(property.Price, :unit => "Ksh")%></td>
+          <td><%=number_to_currency(property.CurrentPrice, :unit => "Ksh") %></td>
+  				<td><%= property.County %></td>
+          <td><%= property.locality %></td>
+          <td><%= property.LR %></td>
+          <td><%= property.Title %></td>
+          <td><%= property.Reason %></td>
+          <% end %>
+          <td><%= property.Rate %>%</td>
+          <!-- <td><%= link_to new_property_share_buy_request_path(:property_id => property.id), remote: true, class: 'btn btn-success' do %>
+            BUY <%= property.shares.where(user_id: nil, status: false).count %><% end %></td> -->
+          <td><%= link_to property, class: 'btn btn-success' do %>
+             <%= property.shares.where.not(user_id: nil, status: true).count %><% end %></td>
+          <% if current_user.user_role? || current_user.user_role?%>
+           <% if property.shares.where("user_id =?", current_user).count > 0 %>
+             <td><%= link_to new_property_share_sell_request_path(:property_id => property.id), remote: true, class: 'btn btn-danger'  do %>
+               <i class="glyphicon glyphicon-minus"></i>Sell <% end %>
+             </td>
+             <% else %>
+              <td> </td>
+           <% end %>
+          <% end %>
+          <td><%= link_to 'Show', property, class: 'btn btn-info' %></td>
+          <% if current_user.superadmin_role? || current_user.supervisor_role? %>
+          <td><%= link_to 'Edit', edit_property_path(property), class: 'btn btn-warning' %></td>
+          <td><%= link_to 'Destroy', property, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %></td>
+          <% end %>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+
+</div>
 
 <% if current_user.superadmin_role? || current_user.supervisor_role? %>
 <%= link_to 'New Property', new_property_path, class: 'btn btn-info' %>

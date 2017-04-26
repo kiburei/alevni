@@ -82,7 +82,7 @@ class PropertiesController < ApplicationController
     @property.shares.update_all(value: @property.ShareValue)
     respond_to do |format|
       if @property.update(property_params)
-        format.html { redirect_to @property, notice: 'Property was successfully updated.' }
+        format.html { redirect_to @property, notice: 'Please Press edit to verify changes and PRESS UDATE again' }
         format.json { render :show, status: :ok, location: @property }
       else
         format.html { render :edit }
@@ -90,6 +90,7 @@ class PropertiesController < ApplicationController
       end
     end
   end
+
 
   # DELETE /properties/1
   # DELETE /properties/1.json

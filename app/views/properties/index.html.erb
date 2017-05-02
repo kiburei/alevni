@@ -4,6 +4,7 @@
   <div id="sell_shares"></div>
 </div>
 <div style="height:300px; overflow:auto;">
+  <% if current_user.superadmin_role? || current_user.supervisor_role && current_user.end_subscription > Date.today %>
   <table class="table">
     <thead>
       <tr class="success">
@@ -67,7 +68,38 @@
       <% end %>
     </tbody>
   </table>
+    <% else %>
+    <p class="expire">Your membership subscription has expired. Please renew  to regain full access to you account</p>
+    <style type="text/css">
+    .tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+    .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 12px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+    .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 12px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+    .tg .tg-t2cw{font-weight:bold;text-decoration:underline;text-align:center;vertical-align:top}
+    .tg .tg-9hbo{font-weight:bold;vertical-align:top}
+    .tg .tg-yw4l{vertical-align:top}
+    @media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
+    <div class="tg-wrap"><table class="tg">
+      <tr>
+        <th class="tg-t2cw">MPESA PAYMENT (PAYBILL)</th>
+        <th class="tg-t2cw">BANK PAYMENT - EQUITY BANK</th>
+        <th class="tg-t2cw">SENDWAVE PAYMENT</th>
+        <th class="tg-t2cw">EQUITY DIRECT</th>
+      </tr>
+      <tr>
+        <td class="tg-9hbo">PAYBILL No. 734630<br>Pay bill instructions <br>1. Go to Mpesa. <br>2. Go to Lipa na Mpesa. <br>3. Choose Paybill. <br>4. Enter Business No. <br>5. Write your name <br>6. Enter Pin.</td>
+        <td class="tg-9hbo">Bank Transfer:<br>Bank: Equity <br>Acc:0550268094297 <br>Branch: Westlands <br>Swift: EQBLKENA <br>Code: 068</td>
+        <td class="tg-9hbo">Sendwave Details:<br>Country: Kenya <br>Phone No.: 0727734630<br>- Sendwave is a free international <br>money transfer service.<br>- Download Sendwave <br>application and follow the instructions <br>- Click The links below to Download</td>
+        <td class="tg-9hbo">Bank Details:<br>Bank: Equity <br>Acc: 0550268094297 <br>Branch: Westlands <br>Swift: EQBLKENA <br>Code: 068<br>- Download Equity Direct <br>application and follow the instructions<br> - Click The links below to Download</td>
+      </tr>
+      <tr>
+        <td class="tg-yw4l"></td>
+        <td class="tg-yw4l"></td>
+        <td class="tg-yw4l"></td>
+        <td class="tg-yw4l"></td>
+      </tr>
+    </table></div>
 
+  <% end %>
 
 </div>
 

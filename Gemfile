@@ -24,6 +24,10 @@ gem 'tzinfo-data'
 
 gem 'bcrypt', platforms: :ruby
 
+gem 'handle_invalid_percent_encoding_requests'
+
+gem 'rack-utf8_sanitizer'
+
 # gem 'pg'
 # gem 'json', '~> 1.7.7'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder

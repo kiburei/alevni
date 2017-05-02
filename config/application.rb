@@ -1,15 +1,21 @@
 require File.expand_path('../boot', __FILE__)
 
 
-
 require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
+
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
 module TradingApp
   class Application < Rails::Application
+
+    require "#{Rails.root}/app/middleware/handle_invalid_percent_encoding.rb"
+
+    config.middleware.insert 0, HandleInvalidPercentEncoding
+    config.middleware.insert 0, Rack::UTF8Sanitizer
+
 
 
     # Settings in config/environments/* take precedence over those specified here.

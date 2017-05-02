@@ -1,0 +1,311 @@
+I, [2017-05-02T12:30:21.998238 #9018]  INFO -- : Started GET "/" for 127.0.0.1 at 2017-05-02 12:30:21 +0300
+I, [2017-05-02T12:30:22.034044 #9018]  INFO -- : Processing by PropertiesController#index as HTML
+I, [2017-05-02T12:30:22.056966 #9018]  INFO -- : Completed 401 Unauthorized in 23ms (ActiveRecord: 0.0ms)
+I, [2017-05-02T12:30:22.251314 #9018]  INFO -- : Started GET "/users/sign_in" for 127.0.0.1 at 2017-05-02 12:30:22 +0300
+I, [2017-05-02T12:30:22.254770 #9018]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2017-05-02T12:30:22.587683 #9018]  INFO -- :   Rendering devise/sessions/new.html.erb within layouts/application
+I, [2017-05-02T12:30:22.609099 #9018]  INFO -- :   Rendered devise/shared/_links.html.erb (4.4ms)
+I, [2017-05-02T12:30:22.609397 #9018]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/application (21.4ms)
+I, [2017-05-02T12:30:22.624321 #9018]  INFO -- :   Rendered shared/_navigation.html.erb (7.0ms)
+I, [2017-05-02T12:30:22.630206 #9018]  INFO -- : Completed 500 Internal Server Error in 375ms (ActiveRecord: 168.5ms)
+F, [2017-05-02T12:30:22.632347 #9018] FATAL -- :   
+F, [2017-05-02T12:30:22.632411 #9018] FATAL -- : ActionView::Template::Error (undefined method `end_subscription' for nil:NilClass):
+F, [2017-05-02T12:30:22.632705 #9018] FATAL -- :     51:               <div id="content" class="col-xs-11">
+    52:                <div class="appcon">
+    53:                 <div class="table-responsive">
+    54:                   <% if current_user.end_subscription > Date.today %>
+    55:                   <%= yield %>
+    56:                   <% if user_signed_in? %>
+    57:                     <div class="value">
+F, [2017-05-02T12:30:22.632758 #9018] FATAL -- :   
+F, [2017-05-02T12:30:22.632814 #9018] FATAL -- : app/views/layouts/application.html.erb:54:in `_app_views_layouts_application_html_erb__679694208820525950_47158984491660'
+app/middleware/handle_invalid_percent_encoding.rb:20:in `call'
+I, [2017-05-02T12:30:29.745993 #9018]  INFO -- : Started GET "/users/sign_in" for 127.0.0.1 at 2017-05-02 12:30:29 +0300
+I, [2017-05-02T12:30:29.747692 #9018]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2017-05-02T12:30:29.751289 #9018]  INFO -- :   Rendering devise/sessions/new.html.erb within layouts/application
+I, [2017-05-02T12:30:29.757343 #9018]  INFO -- :   Rendered devise/shared/_links.html.erb (0.6ms)
+I, [2017-05-02T12:30:29.757577 #9018]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/application (6.0ms)
+I, [2017-05-02T12:30:29.761281 #9018]  INFO -- :   Rendered shared/_navigation.html.erb (2.1ms)
+I, [2017-05-02T12:30:29.767207 #9018]  INFO -- : Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+F, [2017-05-02T12:30:29.769323 #9018] FATAL -- :   
+F, [2017-05-02T12:30:29.769391 #9018] FATAL -- : ActionView::Template::Error (undefined method `end_subscription' for nil:NilClass):
+F, [2017-05-02T12:30:29.769696 #9018] FATAL -- :     51:               <div id="content" class="col-xs-11">
+    52:                <div class="appcon">
+    53:                 <div class="table-responsive">
+    54:                   <% if current_user.end_subscription > Date.today %>
+    55:                   <%= yield %>
+    56:                   <% if user_signed_in? %>
+    57:                     <div class="value">
+F, [2017-05-02T12:30:29.769748 #9018] FATAL -- :   
+F, [2017-05-02T12:30:29.769811 #9018] FATAL -- : app/views/layouts/application.html.erb:54:in `_app_views_layouts_application_html_erb__679694208820525950_47158984491660'
+app/middleware/handle_invalid_percent_encoding.rb:20:in `call'
+D, [2017-05-02T12:31:20.206308 #9162] DEBUG -- :   [1m[35m (19.5ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+D, [2017-05-02T12:31:20.213670 #9162] DEBUG -- :   [1m[35m (6.5ms)[0m  [1m[34mSELECT GET_LOCK('627664373226865590', 0);[0m
+D, [2017-05-02T12:31:20.238084 #9162] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+D, [2017-05-02T12:31:20.369528 #9162] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+D, [2017-05-02T12:31:20.379228 #9162] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:31:20.413853 #9162] DEBUG -- :   [1m[35mSQL (30.1ms)[0m  [1m[33mUPDATE `ar_internal_metadata` SET `value` = 'production', `updated_at` = '2017-05-02 09:31:20' WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+D, [2017-05-02T12:31:20.493288 #9162] DEBUG -- :   [1m[35m (78.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-05-02T12:31:20.494560 #9162] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[34mSELECT RELEASE_LOCK('627664373226865590')[0m
+D, [2017-05-02T12:31:44.526374 #9246] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+D, [2017-05-02T12:31:44.800431 #9246] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:31:44.856796 #9246] DEBUG -- :   [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'admin@admin.com' LIMIT 1[0m
+D, [2017-05-02T12:31:44.898096 #9246] DEBUG -- :   [1m[35m (13.9ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:31:59.265518 #9303] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+D, [2017-05-02T12:31:59.543265 #9303] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:31:59.560794 #9303] DEBUG -- :   [1m[36mUser Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'abiwanja63@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:31:59.599547 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:31:59.777614 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:31:59.779957 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'alicewasadea71@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:31:59.781827 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:31:59.958801 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:31:59.961013 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'njorogeann@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:31:59.962806 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:00.139019 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:00.141244 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'amuchiri15@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:00.143021 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:00.319456 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:00.321690 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'anthonythubei@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:00.323519 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:00.500821 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:00.503718 #9303] DEBUG -- :   [1m[36mUser Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'wanjikuvirginia58@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:00.506247 #9303] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:00.683067 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:00.685318 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'wairimu1@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:32:00.688016 #9303] DEBUG -- :   [1m[35m (1.1ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:00.869412 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:00.871612 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'waodanga@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:32:00.873667 #9303] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:01.050573 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:01.052840 #9303] DEBUG -- :   [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'emailck563@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:01.054714 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:01.232719 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:01.234865 #9303] DEBUG -- :   [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'njugunazakaria2015@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:32:01.236731 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:01.412992 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:01.415474 #9303] DEBUG -- :   [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'muthonikemunto@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:01.417618 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:01.594665 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:01.596867 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'gakungadk@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:01.598660 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:01.775232 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:01.777528 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'munana25@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:32:01.779320 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:01.957155 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:01.959346 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'd.odanga@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:01.961167 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:02.137996 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:02.140176 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'ds.odanga@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:02.141990 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:02.319412 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:02.321638 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'euphrasiakariuki0@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:02.323427 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:02.499884 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:02.502058 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'lizmbau@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:02.503861 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:02.680113 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:02.682297 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'patrickkariuki@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:32:02.684089 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:02.860625 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:02.863114 #9303] DEBUG -- :   [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'emilymaina26@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:32:02.865360 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:03.042622 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:03.044955 #9303] DEBUG -- :   [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'emily.mburu@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:03.046854 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:03.223518 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:03.225723 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'wanjogu@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:03.227499 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:03.404214 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:03.406366 #9303] DEBUG -- :   [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'theindustrydesigns@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:03.408145 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:03.584412 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:03.586569 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'esther.mukora@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:32:03.588392 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:03.764018 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:03.766191 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'wambuikiarie.ew@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:03.767985 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:03.945418 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:03.948088 #9303] DEBUG -- :   [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'karfui5@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:32:03.950233 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:04.127138 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:04.129376 #9303] DEBUG -- :   [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'georgemk@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:04.131186 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:04.307315 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:04.309519 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'georgegakunyi@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:04.311303 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:04.487697 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:04.489882 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'mikemaina8@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:32:04.491650 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:04.668221 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:04.670437 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'graciousgk2@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:04.672292 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:04.848152 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:04.850361 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'njugunazakaria2015@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:32:04.852156 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:05.029556 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:05.031690 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'umutesirachel2020@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:32:05.033589 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:05.212072 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:05.214288 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'kiharaisaac@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:05.216092 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:05.395039 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:05.398112 #9303] DEBUG -- :   [1m[36mUser Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'bosco@chlorideexide.com' LIMIT 1[0m
+D, [2017-05-02T12:32:05.399919 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:05.575648 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:05.577837 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'karogi@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:32:05.579671 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:05.756353 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:05.758512 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'jknganga07@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:32:05.760363 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:05.936845 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:05.938999 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'thungu4@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:05.940842 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:06.118083 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:06.120209 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'julietgicheru@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:06.122095 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:06.298293 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:06.300543 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'wairimu2007@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:32:06.302366 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:06.481459 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:06.483587 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'wairimu12007@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:06.485451 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:06.662427 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:06.664793 #9303] DEBUG -- :   [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'euphrasiakariuki0@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:06.666605 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:06.843361 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:06.845572 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'wanjikuvirginia58@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:06.847446 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:07.026813 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:07.029012 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'smacharia2000@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:32:07.031047 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:07.210296 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:07.212610 #9303] DEBUG -- :   [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'mary.gitogo@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:32:07.214443 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:07.390964 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:07.393163 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'mchege@msn.com' LIMIT 1[0m
+D, [2017-05-02T12:32:07.394949 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:07.574590 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:07.576915 #9303] DEBUG -- :   [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'ann.wairimu@yahoo.co.uk' LIMIT 1[0m
+D, [2017-05-02T12:32:07.578751 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:07.757350 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:07.759485 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'maryanne.obwaka@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:07.761313 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:07.940099 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:07.942364 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'mercynjeri22@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:07.944148 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:08.121005 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:08.123621 #9303] DEBUG -- :   [1m[36mUser Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'mossinho1500@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:32:08.126059 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:08.306246 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:08.308479 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'rachem2020@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:08.310308 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:08.487056 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:08.489265 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'mmutoni11@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:08.491046 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:08.667184 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:08.669444 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'nancygicheru1@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:08.671281 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:08.847828 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:08.850052 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'nwangechikomo@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:08.851813 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:09.027879 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:09.030167 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'njugunazakaria2015@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:32:09.031993 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:09.209148 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:09.212014 #9303] DEBUG -- :   [1m[36mUser Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'mikemaina8@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:32:09.214497 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:09.391320 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:09.393562 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'chachasamuel14@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:09.395348 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:09.572072 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:09.574274 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'yudahventures2010@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:09.576094 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:09.755984 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:09.758906 #9303] DEBUG -- :   [1m[36mUser Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'paulgatete420@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:09.760995 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:09.940669 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:09.942819 #9303] DEBUG -- :   [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'penninahk@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:32:09.944659 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:10.122338 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:10.124569 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'peterkanyugo@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:32:10.126370 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:10.304633 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:10.306782 #9303] DEBUG -- :   [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'fylysm@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:10.308653 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:10.485997 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:10.488497 #9303] DEBUG -- :   [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'pollinegithinji@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:10.490592 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:10.669925 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:10.672097 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'esther.mukora@yahoo.com' LIMIT 1[0m
+D, [2017-05-02T12:32:10.673997 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:10.850555 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:10.852844 #9303] DEBUG -- :   [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'kggafner@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:10.854724 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:11.033706 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:11.035955 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'ndoriah@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:11.037874 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:11.214373 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:11.217069 #9303] DEBUG -- :   [1m[36mUser Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'r.gathitu@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:11.219121 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:11.400189 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:11.403061 #9303] DEBUG -- :   [1m[36mUser Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'sharon.pacho@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:11.405408 #9303] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:11.584569 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:11.586821 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'wanjikuvirginia58@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:11.588665 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:11.765013 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:11.767223 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'turaxynjeri@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:11.769099 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:11.945832 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:11.948003 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'joshtogo3@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:11.949898 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:12.126402 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:12.128664 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'stevemuguro@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:12.130540 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-05-02T12:32:12.307036 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T12:32:12.309302 #9303] DEBUG -- :   [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'muthoni.macharia2011@gmail.com' LIMIT 1[0m
+D, [2017-05-02T12:32:12.311148 #9303] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+I, [2017-05-02T12:32:40.461554 #9339]  INFO -- : Started GET "/users/sign_in" for 127.0.0.1 at 2017-05-02 12:32:40 +0300
+I, [2017-05-02T12:32:40.492108 #9339]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2017-05-02T12:32:40.592576 #9339]  INFO -- :   Rendering devise/sessions/new.html.erb within layouts/application
+I, [2017-05-02T12:32:40.646832 #9339]  INFO -- :   Rendered devise/shared/_links.html.erb (2.6ms)
+I, [2017-05-02T12:32:40.647064 #9339]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/application (54.3ms)
+I, [2017-05-02T12:32:40.661211 #9339]  INFO -- :   Rendered shared/_navigation.html.erb (5.9ms)
+I, [2017-05-02T12:32:40.667302 #9339]  INFO -- : Completed 500 Internal Server Error in 175ms (ActiveRecord: 3.4ms)
+F, [2017-05-02T12:32:40.669399 #9339] FATAL -- :   
+F, [2017-05-02T12:32:40.669466 #9339] FATAL -- : ActionView::Template::Error (undefined method `end_subscription' for nil:NilClass):
+F, [2017-05-02T12:32:40.669744 #9339] FATAL -- :     51:               <div id="content" class="col-xs-11">
+    52:                <div class="appcon">
+    53:                 <div class="table-responsive">
+    54:                   <% if current_user.end_subscription > Date.today %>
+    55:                   <%= yield %>
+    56:                   <% if user_signed_in? %>
+    57:                     <div class="value">
+F, [2017-05-02T12:32:40.669798 #9339] FATAL -- :   
+F, [2017-05-02T12:32:40.669854 #9339] FATAL -- : app/views/layouts/application.html.erb:54:in `_app_views_layouts_application_html_erb___4416958178936714384_47015983786380'
+app/middleware/handle_invalid_percent_encoding.rb:20:in `call'
+I, [2017-05-02T12:32:45.133961 #9339]  INFO -- : Started GET "/" for 127.0.0.1 at 2017-05-02 12:32:45 +0300
+I, [2017-05-02T12:32:45.136873 #9339]  INFO -- : Processing by PropertiesController#index as HTML
+I, [2017-05-02T12:32:45.138798 #9339]  INFO -- : Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+I, [2017-05-02T12:32:46.043234 #9339]  INFO -- : Started GET "/" for 127.0.0.1 at 2017-05-02 12:32:46 +0300
+I, [2017-05-02T12:32:46.044764 #9339]  INFO -- : Processing by PropertiesController#index as HTML
+I, [2017-05-02T12:32:46.046136 #9339]  INFO -- : Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+I, [2017-05-02T12:32:46.063679 #9339]  INFO -- : Started GET "/users/sign_in" for 127.0.0.1 at 2017-05-02 12:32:46 +0300
+I, [2017-05-02T12:32:46.065952 #9339]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2017-05-02T12:32:46.069341 #9339]  INFO -- :   Rendering devise/sessions/new.html.erb within layouts/application
+I, [2017-05-02T12:32:46.074159 #9339]  INFO -- :   Rendered devise/shared/_links.html.erb (0.6ms)
+I, [2017-05-02T12:32:46.074369 #9339]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/application (4.8ms)
+I, [2017-05-02T12:32:46.077285 #9339]  INFO -- :   Rendered shared/_navigation.html.erb (1.6ms)
+I, [2017-05-02T12:32:46.083535 #9339]  INFO -- : Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+F, [2017-05-02T12:32:46.085813 #9339] FATAL -- :   
+F, [2017-05-02T12:32:46.085930 #9339] FATAL -- : ActionView::Template::Error (undefined method `end_subscription' for nil:NilClass):
+F, [2017-05-02T12:32:46.086233 #9339] FATAL -- :     51:               <div id="content" class="col-xs-11">
+    52:                <div class="appcon">
+    53:                 <div class="table-responsive">
+    54:                   <% if current_user.end_subscription > Date.today %>
+    55:                   <%= yield %>
+    56:                   <% if user_signed_in? %>
+    57:                     <div class="value">
+F, [2017-05-02T12:32:46.086293 #9339] FATAL -- :   
+F, [2017-05-02T12:32:46.086350 #9339] FATAL -- : app/views/layouts/application.html.erb:54:in `_app_views_layouts_application_html_erb___4416958178936714384_47015983786380'
+app/middleware/handle_invalid_percent_encoding.rb:20:in `call'

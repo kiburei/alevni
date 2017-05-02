@@ -16,7 +16,7 @@
        <!-- <p class="notice"><%= notice %></p>
        <p class="alert"><%= alert %></p> -->
 
-  <% if user_signed_in?%>
+  <% if user_signed_in? %>
     <% if Property.all.empty? == false && Property.last.EndOffer > Date.today %>
       <div class="row offer">
         <div class="trending col-md-12">
@@ -51,6 +51,7 @@
               <div id="content" class="col-xs-11">
                <div class="appcon">
                 <div class="table-responsive">
+                  <% if current_user.end_subscription > Date.today %>
                   <%= yield %>
                   <% if user_signed_in? %>
                     <div class="value">
@@ -63,10 +64,11 @@
                           <%= number_to_currency(sum, :unit => "Ksh") %>
                         <% end %>
                       <% end %>
-
-
-                      <!-- Total Share Value: KES: 1,250,000!! </p> -->
                     </div>
+                  <% end %>
+                  <% else %>
+                    <p class="expire" >Your Subscription Has Expired, Please Renew</p>
+
                   <% end %>
                 </div>
                 </div>

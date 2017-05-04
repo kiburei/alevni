@@ -23,10 +23,13 @@
     <%= f.text_field :sale_price, :placeholder => "Your Sell Price" %>
   </div>
   <div class="field form-group">
-    <!-- <%= f.label :Days_of_validity %>: -->
-    <%= f.text_field :validity_days, :placeholder => "Enter Sell period" %>
+    <!-- <%= f.label :Offer_Period %>: -->
+    <%= f.date_select :validity_days, :order => [:day, :month, :year] %>
   </div>
   <div class="actions form-group">
     <%= f.submit %>
   </div>
 <% end %>
+<script type="text/javascript">
+  $('[data-behaviour~=datepicker]').datepicker();
+</script>

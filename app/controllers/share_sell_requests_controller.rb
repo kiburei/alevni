@@ -70,7 +70,6 @@ class ShareSellRequestsController < ApplicationController
   def create
     @share_sell_request = ShareSellRequest.new(share_sell_request_params)
     @share_sell_request.user_id = current_user.id
-    @share_sell_request.validity_days = Date.today + @share_sell_request.validity_days.to_i.days
     @property_id = Property.find_by_Code(@share_sell_request.property_id)
     # @share_sell_request.property_id = @property_id.id
     # add user id since only owned shares can be sold

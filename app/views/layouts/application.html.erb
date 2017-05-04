@@ -54,7 +54,7 @@
                   <%= yield %>
                   <% if user_signed_in? %>
                     <div class="value">
-                      Total Share Value:
+                      YOUR 10K SHARE VALUE:
                       <% total = [] %>
                       <% Share.where(user_id: current_user).each do |value| %>
                       <% total << value.value %>

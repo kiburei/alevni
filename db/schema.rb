@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170501061545) do
+ActiveRecord::Schema.define(version: 20170503144041) do
 
   create_table "admins", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string   "email"
@@ -32,17 +32,17 @@ ActiveRecord::Schema.define(version: 20170501061545) do
   create_table "properties", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.integer  "Code"
     t.string   "County"
-    t.decimal  "Price",        precision: 11, scale: 2
-    t.datetime "created_at",                            null: false
-    t.datetime "updated_at",                            null: false
-    t.decimal  "CurrentPrice", precision: 11, scale: 2
+    t.decimal  "Price",                      precision: 11, scale: 2
+    t.datetime "created_at",                                          null: false
+    t.datetime "updated_at",                                          null: false
+    t.decimal  "CurrentPrice",               precision: 11, scale: 2
     t.integer  "Shares"
-    t.decimal  "Rate",         precision: 8,  scale: 2
-    t.decimal  "ShareValue",   precision: 11, scale: 2
+    t.decimal  "Rate",                       precision: 8,  scale: 2
+    t.decimal  "ShareValue",                 precision: 11, scale: 2
     t.string   "locality"
     t.string   "LR"
     t.string   "Title"
-    t.string   "Reason"
+    t.text     "Reason",       limit: 65535
     t.date     "StartOffer"
     t.date     "EndOffer"
     t.integer  "user_id"

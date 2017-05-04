@@ -1,0 +1,2 @@
+      invoke  active_record
+      create    db/migrate/20170503144041_change_reason_to_text_property.rb

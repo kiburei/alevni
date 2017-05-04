@@ -26,7 +26,7 @@
       <%= f.text_area :locality, :rows => 10, style: 'width:50%;' %>
     </div>
   </div>
-  <div class="details">
+  <div class="details">zz
     <h3>Land Details</h3>
     <div class="field">
       <%= f.label :LR_Number %><br>
@@ -68,3 +68,8 @@
     <%= f.submit %>
   </div>
 <% end %>
+<script type="text/javascript">
+  $('[data-behaviour~=datepicker]').datepicker({
+    dateFormat: "yyyy-mm-dd";
+  });
+</script>

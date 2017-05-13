@@ -11,7 +11,6 @@ Rails.application.routes.draw do
     resources :share_buy_requests
   end
   resources :users
-
   get "share_buy_requests/:id/transfer" => 'share_buy_requests#transfer', as: :transfer_share_buy_request
   get "share_sell_requests/:id/sale_transfer" => 'share_sell_requests#sale_transfer', as: :sale_transfer_share_sell_request
   get "share_sell_requests/:id/buy_user_shares" => 'share_sell_requests#buy_user_shares', as: :buy_user_shares_share_sell_request

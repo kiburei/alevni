@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170503144041) do
+ActiveRecord::Schema.define(version: 20170513072500) do
 
   create_table "admins", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string   "email"
@@ -61,6 +61,7 @@ ActiveRecord::Schema.define(version: 20170503144041) do
     t.integer  "share_sell_request_id"
     t.decimal  "total",                 precision: 11, scale: 2
     t.string   "transaction_id"
+    t.string   "pay_method"
     t.index ["share_sell_request_id"], name: "index_share_buy_requests_on_share_sell_request_id", using: :btree
   end
 

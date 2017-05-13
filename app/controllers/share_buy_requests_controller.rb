@@ -56,7 +56,7 @@ class ShareBuyRequestsController < ApplicationController
         @share_buy_request.total = ShareSellRequest.find(@share_buy_request.share_sell_request_id).sale_price * @share_buy_request.no_of_shares + (300 * @share_buy_request.no_of_shares)
       else
         @shares = Share.where("property_id =?", @share_buy_request.property_id)
-        @share_buy_request.total = Share.find_by_property_id(@share_buy_request.property_id).value * @share_buy_request.no_of_shares + (300 * @share_buy_request.no_of_shares)
+        @share_buy_request.total = Share.find_by_property_id(@share_buy_request.property_id).value * @share_buy_request.no_of_shares
       end
     @share_buy_request.property_id = @share_buy_request.property_id
 
@@ -98,8 +98,8 @@ class ShareBuyRequestsController < ApplicationController
   # DELETE /share_buy_requests/1
   # DELETE /share_buy_requests/1.json
   def destroy
-    @share_buy_request.destroy
     Share.where("share_buy_request_id =?", @share_buy_request.id).update_all(status: false, share_buy_request_id: nil)
+    @share_buy_request.destroy
     respond_to do |format|
       format.html { redirect_to share_buy_requests_url, notice: 'Share buy request was successfully destroyed.' }
       format.json { head :no_content }
@@ -114,6 +114,6 @@ class ShareBuyRequestsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def share_buy_request_params
-      params.require(:share_buy_request).permit(:property_id, :no_of_shares, :user_id, :share_sell_request_id, :total, :transaction_id)
+      params.require(:share_buy_request).permit(:property_id, :no_of_shares, :user_id, :share_sell_request_id, :total, :transaction_id, :pay_method)
     end
 end

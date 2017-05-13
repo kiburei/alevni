@@ -58,6 +58,7 @@ class PropertiesController < ApplicationController
     @property.Shares = @property.Price/10000
     @property.CurrentPrice = @property.Price
     @property.ShareValue = 10000
+    # @property.StartOffer= Date.parse(@property.StartOffer, "%m/%d/%Y")
     @property.EndOffer = @property.StartOffer + 90.days
 
     respond_to do |format|

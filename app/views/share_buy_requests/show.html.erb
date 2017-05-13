@@ -30,7 +30,11 @@ You have expressed interest to buy <%= @share_buy_request.no_of_shares %> shares
     <tr>
       <td><%= Property.find(@share_buy_request.property_id).Code %></td>
       <td><%= Property.find(@share_buy_request.property_id).County %> Plot No: <%= Property.find(@share_buy_request.property_id).LR %></td>
-      <td><%= number_to_currency((@share_buy_request.no_of_shares * 300).to_d, :unit => "Ksh") %></td>
+      <td><% if Property.find(@share_buy_request.property_id).EndOffer > Date.today %>
+            <%= number_to_currency((@share_buy_request.no_of_shares * 0).to_d, :unit => "Ksh") %>
+          <% else %>
+            <%= number_to_currency((@share_buy_request.no_of_shares * 300).to_d, :unit => "Ksh") %>
+          <% end %></td>
       <td><%= @share_buy_request.no_of_shares %></td>
       <% if @share_buy_request.shares.first.share_sell_request_id? %>
         <td><%= number_to_currency(ShareSellRequest.find(@share_buy_request.share_sell_request_id).sale_price, :unit => "Ksh") %></td>
@@ -43,7 +47,7 @@ You have expressed interest to buy <%= @share_buy_request.no_of_shares %> shares
 </table>
 
 <% if current_user.superadmin_role || current_user.supervisor_role %>
-  Transaction ID: <label class="lable label-success" ><%= @share_buy_request.transaction_id %></label> </p>
+  Transaction ID: <label class="lable label-success" ><%= @share_buy_request.transaction_id %></label> Payment made via <%= @share_buy_request.pay_method %></p>
 
   <% else %>
   <%= form_for(@share_buy_request, html: { class: 'form-horizontal'}) do |f| %>
@@ -64,9 +68,10 @@ You have expressed interest to buy <%= @share_buy_request.no_of_shares %> shares
       <div class="col-sm-10">
       <%= f.label :transaction_Code %>
       <%= f.text_field :transaction_id %>
+      <%= f.select :pay_method, ['Mpesa PayBill', 'Bank Payement(Equity)', 'Sendwave App', 'Equity Direct']%>
     </div>
     </div>
-      <%= f.submit %>
+      <%= f.submit "Complete Share Purchase"%>
 
   <% end %>
 

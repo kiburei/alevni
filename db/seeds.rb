@@ -5,12 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-# user = User.create! :full_name => 'admin invela', :country => 'kenya', :email => 'admin@admin.com', :member_code => "000", :password => 'topsecret', :password_confirmation => 'topsecret', :superadmin_role => true, :supervisor_role => true, :user_role => true
+user = User.create! :full_name => 'admin invela', :country => 'kenya', :email => 'admin@admin.com', :member_code => "000", :password => 'topsecret', :password_confirmation => 'topsecret', :superadmin_role => true, :supervisor_role => true, :user_role => true
 
 require 'csv'
 
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'invela_members3.csv'))
-if ! csv_text.valid_encoding?
+if csv_text.valid_encoding?
   csva = csv_text.encode("UTF-16be", :invalid => :replace, :replace => "?").encode('UTF-8')
   csv = CSV.parse(csva, :headers => true)
   csv.each do |row|
@@ -38,6 +38,8 @@ if ! csv_text.valid_encoding?
       t.password = row['Password']
       t.password_confirmation = row['Password confirmation']
       t.save
-      puts "#{t.member_code}, #{t.full_name} saved"
+      puts "#{t.member_code}, #{t.id_no} saved"
     end
 end
+
+puts "There are now #{User.count} rows in the transactions table"

@@ -1,2 +1,5 @@
 db/development.sqlite3
 log/development.log
+lib/seeds/invela_members.csv
+lib/seeds/invela_members2.csv
+lib/seeds/invela_members3.csv

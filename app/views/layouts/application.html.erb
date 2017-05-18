@@ -13,9 +13,7 @@
   <%= render 'shared/navigation' %>
 </div>
   <div id="main-container" class="container-fluid">
-       <!-- <p class="notice"><%= notice %></p>
-       <p class="alert"><%= alert %></p> -->
-
+    
   <% if user_signed_in? %>
     <% if Property.all.empty? == false && Property.last.EndOffer > Date.today %>
       <div class="row offer">

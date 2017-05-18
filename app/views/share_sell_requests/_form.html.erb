@@ -12,19 +12,19 @@
   <% end %>
 
   <div class="field form-group">
-    <%= f.hidden_field :property_id, :value => params[:property_id] %>
+    <%= f.hidden_field :property_id, :value => params[:property_id] %></br>
   </div>
   <div class="field form-group">
-    <!-- <%= f.label :no_of_shares %>: -->
-    <%= f.text_field :no_of_shares, :placeholder => "Shares you want to sell" %>
+    <%= f.label :Enter_no_of_shares_to_sell %></br>
+    <%= f.text_field :no_of_shares %>
   </div>
   <div class="field form-group">
-    <!-- <%= f.label :sale_price %>: -->
-    <%= f.text_field :sale_price, :placeholder => "Your Sell Price" %>
+    <%= f.label :Enter_your_selling_price %></br>
+    <%= f.text_field :sale_price %>
   </div>
   <div class="field form-group">
-    <!-- <%= f.label :Offer_Period %>: -->
-    <%= f.date_select :validity_days, :order => [:day, :month, :year] %>
+    <%= f.label :Select_duration_of_offer %></br>
+    <span class="date_select"><%= f.date_select :validity_days, :order => [:day, :month, :year] %></span>
   </div>
   <div class="actions form-group">
     <%= f.submit "Sell Shares"%>

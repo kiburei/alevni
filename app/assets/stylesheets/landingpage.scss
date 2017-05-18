@@ -130,10 +130,13 @@ input[type=password] {
 }
 
 select {
-    padding: 16px 20px;
+    padding: 10px 15px;
     border: 2px solid #3A5311;
     border-radius: 4px;
+    width: 50px;
+    height: 3px;
 }
+
 input[type=number]{
     border: 2px solid #3A5311;
     border-radius: 4px;

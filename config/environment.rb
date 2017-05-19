@@ -9,7 +9,9 @@ ActionMailer::Base.smtp_settings = {
 :address => 'host23.safaricombusiness.co.ke',
 :port => 465,
 :authentication => :plain,
-:enable_starttls_auto => true
+:enable_starttls_auto => true,
+:ssl => true,
+:tls => true
 }
 # Initialize the Rails application.
 Rails.application.initialize!

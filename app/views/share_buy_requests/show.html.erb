@@ -69,8 +69,10 @@ You have expressed interest to buy <%= @share_buy_request.no_of_shares %> shares
         <%= f.label :Select_payment_option %></br>
         <%= f.select :pay_method, ['Mpesa PayBill', 'Bank Payement(Equity)', 'Sendwave App', 'Equity Direct']%>
       </div>
-      <%= f.label :Enter_transaction_Code %></br>
-      <%= f.text_field :transaction_id %>
+      <div class="col-md-2">
+        <%= f.label :Enter_transaction_Code %></br>
+        <%= f.text_field :transaction_id, style: 'width: 100%;' %>
+      </div>
     </div>
       <%= f.submit "Complete Share Purchase"%>
 

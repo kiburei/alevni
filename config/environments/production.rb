@@ -74,15 +74,15 @@ Rails.application.configure do
   #  :password             => ENV['gmail_password'],
   #  :authentication       => "plain",
   # :enable_starttls_auto => true
-   :user_name => 'member@invela.co.ke',
-   :password => ' memberinvela16$$',
-   :domain => 'invela.co.ke',
-   :address => 'host23.safaricombusiness.co.ke',
-   :port => 465,
-   :authentication => :plain,
-   :enable_starttls_auto => true,
-   :ssl => true,
-   :tls => true
+   # :user_name => 'member@invela.co.ke',
+   # :password => ' memberinvela16$$',
+   # :domain => 'invela.co.ke',
+   # :address => 'host23.safaricombusiness.co.ke',
+   # :port => 465,
+   # :authentication => :plain,
+   # :enable_starttls_auto => true,
+   # :ssl => true,
+   # :tls => true
   }
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to

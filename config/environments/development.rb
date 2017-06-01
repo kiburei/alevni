@@ -22,24 +22,17 @@ Rails.application.configure do
 
   config.action_mailer.raise_delivery_errors = false
 
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
   config.action_mailer.delivery_method = :smtp
 # SMTP settings for gmail
   config.action_mailer.smtp_settings = {
-   # :address              => "smtp.gmail.com",
-   # :port                 => 587,
-   # :user_name            => ENV['gmail_username'],
-   # :password             => ENV['gmail_password'],
-   # :authentication       => "plain",
-   # :enable_starttls_auto => true
-   :user_name => 'member@invela.co.ke',
-   :password => ' memberinvela16$$',
-   :domain => 'invela.co.ke',
-   :address => 'host23.safaricombusiness.co.ke',
-   :port => 465,
-   :authentication => :plain,
-   :enable_starttls_auto => true,
-   :ssl => true,
-   :tls => true
+      :authentication => :plain,
+      :address => "smtp.mailgun.org",
+      :port => 587,
+      :domain => "sandboxaf6e10a53e9745889bf3ac5b1d3f96e8.mailgun.org",
+      :user_name => "akiburei@gmail.com",
+      :password => "11231991"
   }
 
 

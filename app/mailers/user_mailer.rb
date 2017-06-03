@@ -1,24 +1,15 @@
 class UserMailer < ApplicationMailer
-  default from: 'member@invela.co.ke'
-  layout 'mailer'
+      default from: 'akiburei@gmail.com'
 
-  def user_email(user)
-    @user = user
-    mail(to: @user.email, subject: 'Thanks for signing up to our amazing app')
+  # Subject can be set in your I18n file at config/locales/en.yml
+  # with the following lookup:
+  #
+  #   en.user_mailer.buy_shares.subject
+  #
+  def buy_shares(share_buy_request)
+    @share_buy_request = share_buy_request
+    @user = User.find(@share_buy_request.user_id)
+
+    mail to: @user.email, subject: "New Buy Request"
   end
-
-  def purchase(user_id)
-    @user = User.find(user_id)
-    mail(to: @user.email, subject: 'Interest to buy shares')
-    @admin = "member@invela.co.ke"
-    mail(to: @admin, subject: 'Interest to buy shares')
-  end
-
-  def sell(user_id)
-    @user = User.find(user_id)
-    mail(to: @user.email, subject: 'Interest to sell shares')
-    @admin = "member@invela.co.ke"
-    mail(to: @admin, subject: 'Interest to sell shares')
-  end
-
 end

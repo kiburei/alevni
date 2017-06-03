@@ -19,20 +19,18 @@ Rails.application.configure do
   # Don't care if the mailer can't send.
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
-
-  config.action_mailer.raise_delivery_errors = false
-
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
-
+  config.action_mailer.default_url_options = { host:'localhost', port: '3000' }
+  config.action_mailer.default :charset => "utf-8"
   config.action_mailer.delivery_method = :smtp
-# SMTP settings for gmail
   config.action_mailer.smtp_settings = {
-      :authentication => :plain,
-      :address => "smtp.mailgun.org",
-      :port => 587,
-      :domain => "sandboxaf6e10a53e9745889bf3ac5b1d3f96e8.mailgun.org",
-      :user_name => "akiburei@gmail.com",
-      :password => "11231991"
+    address: "smtp.gmail.com",
+    port: 587,
+    domain: "localhost:3000",
+    authentication: "plain",
+    enable_starttls_auto: true,
+    user_name: "akiburei@gmail.com",
+    password: "11231991"
+
   }
 
 

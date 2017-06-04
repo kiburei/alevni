@@ -12,4 +12,12 @@ class UserMailer < ApplicationMailer
 
     mail to: @user.email, subject: "New Buy Request"
   end
+
+  def transfer_shares(share_buy_request)
+    @share_buy_request = share_buy_request
+    @user = User.find(@share_buy_request.user_id)
+
+    mail to: @user.email, subject: "Transfer of Shares Successful"
+  end
+
 end

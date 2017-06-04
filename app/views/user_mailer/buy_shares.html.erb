@@ -1,5 +1,11 @@
 <h1>Payment of Shares</h1>
 
 <p>
-  A payment of <%= @share_buy_request.total %> amount has been made by user <%= @user.full_name %> for the purchase of <%= @share_buy_request.no_of_shares %> shares from property <%= Property.find(@share_buy_request.property_id).Code %>
+  A payment of 
+  <%= number_to_currency(@share_buy_request.total, :unit => "Ksh") %> has been made via 
+  <%= @share_buy_request.pay_method %>, transaction code 
+  <%= @share_buy_request.transaction_id %> by user 
+  <%= @user.full_name %> for the purchase of 
+  <%= @share_buy_request.no_of_shares %> shares from property 
+  <%= Property.find(@share_buy_request.property_id).Code %>
 </p>

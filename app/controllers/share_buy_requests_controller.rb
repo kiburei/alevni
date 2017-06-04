@@ -7,7 +7,7 @@ class ShareBuyRequestsController < ApplicationController
     @share_buy_request.shares.update_all(user_id: @share_buy_request.user_id, share_sell_request_id: nil)
     @share_buy_request.update(status: true)
     # send user emil of successfullpurchase of shares
-    # UserMailer.use_email(@user).deliver
+    UserMailer.transfer_shares(@share_buy_request).deliver
 
 
     respond_to do |format|
@@ -64,9 +64,11 @@ class ShareBuyRequestsController < ApplicationController
     respond_to do |format|
       if @share_buy_request.save && @shares.where("status =?", false).count >= @share_buy_request.no_of_shares
          @shares.where("status =?", false).order("id").limit(@share_buy_request.no_of_shares).update_all(status: true, share_buy_request_id: @share_buy_request.id)
+         if @share_buy_request.transaction_id != nil
+           UserMailer.buy_shares(@share_buy_request).deliver
+         end
          # SendEmailJob.set(wait: 20.seconds).perform_later(current_user.id)
-         UserMailer.buy_shares(@share_buy_request).deliver
-        #  UserMailer.user_email(@share_buy_request.user_id).deliver
+         # UserMailer.user_email(@share_buy_request.user_id).deliver
 
         format.html { redirect_to @share_buy_request, notice: 'Share buy request was successfully created.' }
         format.json { render :show, status: :created, location: @share_buy_request }
@@ -89,6 +91,7 @@ class ShareBuyRequestsController < ApplicationController
       if @share_buy_request.update(share_buy_request_params)
         format.html { redirect_to @share_buy_request, notice: 'Share buy request was successfully updated.' }
         format.json { render :show, status: :ok, location: @share_buy_request }
+        UserMailer.buy_shares(@share_buy_request).deliver
       else
         format.html { render :edit }
         format.json { render json: @share_buy_request.errors, status: :unprocessable_entity }

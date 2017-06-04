@@ -78,9 +78,9 @@ class ShareSellRequestsController < ApplicationController
     respond_to do |format|
       if @share_sell_request.save && @shares.where("status =?", true).count >= @share_sell_request.no_of_shares
          @shares.where("status =?", true).order("id").limit(@share_sell_request.no_of_shares).update_all(status: false, share_sell_request_id: @share_sell_request.id)
-         UserMailer.sell(@share_sell_request.user_id).deliver
         format.html { redirect_to @share_sell_request, notice: 'Share sell request was successfully created.' }
         format.json { render :show, status: :created, location: @share_sell_request }
+        # Send email of interest to sell shares
       else
         format.html { redirect_to root_path, notice: 'Your Share Sell request was invalid, please enter a valid value.' }
         # format.html { render :new }

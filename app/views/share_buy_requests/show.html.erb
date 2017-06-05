@@ -74,7 +74,12 @@ You have expressed interest to buy <%= @share_buy_request.no_of_shares %> shares
         <%= f.text_field :transaction_id, style: 'width: 100%;' %>
       </div>
     </div>
-      <%= f.submit "Complete Share Purchase"%>
+      <% if @share_buy_request.transaction_id != nil %>
+        <span id="success">SHARE PURCHASE COMPLETE.</span> </br>
+        <span class="info">Shares will be transfered to you after we verify payment. Thank you</span>
+      <% else %>
+        <%= f.submit "Complete Share Purchase"%>
+      <% end %>
 
   <% end %>
 

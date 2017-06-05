@@ -28,8 +28,8 @@ Rails.application.configure do
     domain: "localhost:3000",
     authentication: "plain",
     enable_starttls_auto: true,
-    user_name: "akiburei@gmail.com",
-    password: "11231991"
+    user_name: "invelakenya@gmail.com",
+    password: "invela16$$"
 
   }
 

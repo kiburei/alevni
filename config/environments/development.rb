@@ -23,13 +23,13 @@ Rails.application.configure do
   config.action_mailer.default :charset => "utf-8"
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-    address: "smtp.gmail.com",
-    port: 587,
-    domain: "localhost:3000",
-    authentication: "plain",
     enable_starttls_auto: true,
-    user_name: "invelakenya@gmail.com",
-    password: "invela16$$"
+    domain: "localhost:3000",
+    address: "smtp.gmail.com",
+    authentication: "plain",
+    user_name: "akiburei@gmail.com",
+    password: "11231991",
+    port: 587
 
   }
 

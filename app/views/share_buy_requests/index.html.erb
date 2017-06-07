@@ -33,8 +33,10 @@
             <% end %>
         <% end %>
         <td><%= link_to 'Show', share_buy_request, class: "btn btn-info"%></td>
-        <% if share_buy_request.transaction_id == nil %>
-          <td><%= link_to 'Cancel', share_buy_request, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %></td>
+        <% if share_buy_request.transaction_id == nil || current_user.superadmin_role || current_user.supervisor_role %>
+          <% if share_buy_request.status == false%>
+            <td><%= link_to 'Cancel', share_buy_request, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %></td>
+          <% end %>
         <% end %>
       </tr>
     <% end %>

@@ -1,0 +1,27 @@
+<%= form_for(news_and_event) do |f| %>
+  <% if news_and_event.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(news_and_event.errors.count, "error") %> prohibited this news_and_event from being saved:</h2>
+
+      <ul>
+      <% news_and_event.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </div>
+
+  <div class="field">
+    <%= f.label :post %>
+    <%= f.text_area :post %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :news_and_events
   resources :share_sell_requests
   resources :share_buy_requests
   # resources :shares

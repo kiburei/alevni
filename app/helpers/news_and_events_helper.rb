@@ -1,0 +1,2 @@
+module NewsAndEventsHelper
+end

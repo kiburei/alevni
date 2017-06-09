@@ -26,6 +26,8 @@ gem 'turbolinks'
 
 gem 'tzinfo-data'
 
+gem 'ckeditor', '~> 4.1.6'
+
 gem 'bcrypt', platforms: :ruby
 
 gem 'handle_invalid_percent_encoding_requests'

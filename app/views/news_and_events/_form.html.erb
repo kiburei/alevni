@@ -18,7 +18,7 @@
 
   <div class="field">
     <%= f.label :post %>
-    <%= f.text_area :post %>
+    <%= f.cktext_area :post, :rows => 10, ckeditor: { uiColor: '#AADC6E', toolbar: 'mini' } %>
   </div>
 
   <div class="actions">

@@ -15,7 +15,7 @@
     <% @news_and_events.each do |news_and_event| %>
       <tr>
         <td><%= news_and_event.title %></td>
-        <td><%= news_and_event.post %></td>
+        <td><%= news_and_event.post.html_safe %></td>
         <td><%= link_to 'Show', news_and_event, class: 'btn btn-info' %></td>
         <% if current_user.supervisor_role || current_user.superadmin_role %>
           <td><%= link_to 'Edit', edit_news_and_event_path(news_and_event), class: 'btn btn-warning' %></td>

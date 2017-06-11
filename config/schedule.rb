@@ -26,6 +26,6 @@ every 59.minutes do
 	rake "buy_requests:delete_after_38_hours"
 end
 
-every 5.minute do
+every 1.day do
 	rake "expire_sale:expire_sale_requests"
 end

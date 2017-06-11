@@ -429,3 +429,929 @@ ArgumentError: wrong number of arguments (given 0, expected 1)
 /home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
 Tasks: TOP => buy_requests:delete_after_38_hours
 (See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+SyntaxError: /home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4: syntax error, unexpected keyword_false, expecting ']'
+quest.where(['status =?' false, 2.minutes.ago]).destroy_all
+                              ^
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4: Can't assign to false
+uest.where(['status =?' false, 2.minutes.ago]).destroy_all
+                              ^
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4: syntax error, unexpected ']', expecting &. or :: or '[' or '.'
+atus =?' false, 2.minutes.ago]).destroy_all
+                              ^
+/home/andrew/RubyProjects/10kClub/Rakefile:6:in `<top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ActiveRecord::PreparedStatementInvalid: wrong number of bind variables (2 for 1) in: status =?
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+NoMethodError: undefined method `%' for {:status=>false}:Hash
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ActiveRecord::StatementInvalid: Mysql2::Error: Cannot delete or update a parent row: a foreign key constraint fails (`invela_production`.`shares`, CONSTRAINT `fk_rails_371398bdc7` FOREIGN KEY (`share_sell_request_id`) REFERENCES `share_sell_requests` (`id`)): DELETE FROM `share_sell_requests` WHERE `share_sell_requests`.`id` = 4
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Mysql2::Error: Cannot delete or update a parent row: a foreign key constraint fails (`invela_production`.`shares`, CONSTRAINT `fk_rails_371398bdc7` FOREIGN KEY (`share_sell_request_id`) REFERENCES `share_sell_requests` (`id`))
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+NoMethodError: undefined method `call' for #<Class:0x0056555ba707b8>
+Did you mean?  all
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+NoMethodError: undefined method `call' for #<Class:0x0056555a462ef8>
+Did you mean?  all
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+NoMethodError: undefined method `call' for #<Class:0x0056555a462fe8>
+Did you mean?  all
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+NoMethodError: undefined method `save' for #<ShareBuyRequest::ActiveRecord_Relation:0x0056555b46ec70>
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:6:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+NoMethodError: undefined method `transaction_id' for #<ShareBuyRequest::ActiveRecord_Relation:0x0056555b41ada0>
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:6:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+NoMethodError: undefined method `save' for #<ShareBuyRequest::ActiveRecord_Relation:0x0056555a2aac00>
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:7:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ActiveRecord::RecordNotFound: Couldn't find ShareBuyRequest with 'id'={:status=>false}
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+NoMethodError: undefined method `transaction_id' for #<ActiveRecord::Relation []>
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:6:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+NoMethodError: undefined method `transaction_id' for #<ActiveRecord::Relation []>
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:6:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:5:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:5:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:5:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ArgumentError: wrong number of arguments (given 0, expected 1)
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:5:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+NoMethodError: undefined method `shares' for #<ActiveRecord::Relation []>
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:5:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+NoMethodError: undefined method `shares' for #<ActiveRecord::Relation []>
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:5:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+NoMethodError: undefined method `shares' for #<ActiveRecord::Relation []>
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:5:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+NoMethodError: undefined method `shares' for #<ShareBuyRequest::ActiveRecord_Relation:0x0056555b1ac708>
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:5:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+NoMethodError: undefined method `shares' for #<ShareBuyRequest::ActiveRecord_Relation:0x0056555bab0598>
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:5:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ActiveRecord::StatementInvalid: Mysql2::Error: Cannot delete or update a parent row: a foreign key constraint fails (`invela_production`.`shares`, CONSTRAINT `fk_rails_8197dde65f` FOREIGN KEY (`share_buy_request_id`) REFERENCES `share_buy_requests` (`id`)): DELETE FROM `share_buy_requests` WHERE `share_buy_requests`.`id` = 51
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:5:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Mysql2::Error: Cannot delete or update a parent row: a foreign key constraint fails (`invela_production`.`shares`, CONSTRAINT `fk_rails_8197dde65f` FOREIGN KEY (`share_buy_request_id`) REFERENCES `share_buy_requests` (`id`))
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:5:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ActiveRecord::StatementInvalid: Mysql2::Error: Cannot delete or update a parent row: a foreign key constraint fails (`invela_production`.`shares`, CONSTRAINT `fk_rails_8197dde65f` FOREIGN KEY (`share_buy_request_id`) REFERENCES `share_buy_requests` (`id`)): DELETE FROM `share_buy_requests` WHERE `share_buy_requests`.`id` = 51
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:5:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Mysql2::Error: Cannot delete or update a parent row: a foreign key constraint fails (`invela_production`.`shares`, CONSTRAINT `fk_rails_8197dde65f` FOREIGN KEY (`share_buy_request_id`) REFERENCES `share_buy_requests` (`id`))
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:5:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ActiveRecord::StatementInvalid: Mysql2::Error: Cannot delete or update a parent row: a foreign key constraint fails (`invela_production`.`shares`, CONSTRAINT `fk_rails_8197dde65f` FOREIGN KEY (`share_buy_request_id`) REFERENCES `share_buy_requests` (`id`)): DELETE FROM `share_buy_requests` WHERE `share_buy_requests`.`id` = 51
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:5:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Mysql2::Error: Cannot delete or update a parent row: a foreign key constraint fails (`invela_production`.`shares`, CONSTRAINT `fk_rails_8197dde65f` FOREIGN KEY (`share_buy_request_id`) REFERENCES `share_buy_requests` (`id`))
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:5:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+SyntaxError: /home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:6: syntax error, unexpected ')'
+i < @buy_requests.length; i++)
+                              ^
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:8: syntax error, unexpected keyword_end, expecting ')'
+    end
+       ^
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:14: syntax error, unexpected keyword_end, expecting ')'
+  end
+     ^
+/home/andrew/RubyProjects/10kClub/Rakefile:6:in `<top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+SyntaxError: /home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:6: syntax error, unexpected ')'
+i < @buy_requests.length; i++)
+                              ^
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:8: syntax error, unexpected keyword_end, expecting ')'
+    end
+       ^
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:14: syntax error, unexpected keyword_end, expecting ')'
+  end
+     ^
+/home/andrew/RubyProjects/10kClub/Rakefile:6:in `<top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+SyntaxError: /home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:6: syntax error, unexpected keyword_do, expecting keyword_end
+    @buy_requests do |buy_request|
+                    ^
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:7: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+    	puts "Looping"
+    	      ^
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:14: syntax error, unexpected keyword_end, expecting end-of-input
+  end
+     ^
+/home/andrew/RubyProjects/10kClub/Rakefile:6:in `<top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+ActiveRecord::StatementInvalid: Mysql2::Error: Cannot delete or update a parent row: a foreign key constraint fails (`invela_production`.`shares`, CONSTRAINT `fk_rails_8197dde65f` FOREIGN KEY (`share_buy_request_id`) REFERENCES `share_buy_requests` (`id`)): DELETE FROM `share_buy_requests` WHERE `share_buy_requests`.`id` = 51
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:8:in `block (3 levels) in <top (required)>'
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:6:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Mysql2::Error: Cannot delete or update a parent row: a foreign key constraint fails (`invela_production`.`shares`, CONSTRAINT `fk_rails_8197dde65f` FOREIGN KEY (`share_buy_request_id`) REFERENCES `share_buy_requests` (`id`))
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:8:in `block (3 levels) in <top (required)>'
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:6:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+SyntaxError: /home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4: syntax error, unexpected ')', expecting =>
+created_at < ?", 1.minute.ago)
+                              ^
+/home/andrew/RubyProjects/10kClub/Rakefile:6:in `<top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+SyntaxError: /home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4: syntax error, unexpected ')', expecting =>
+created_at < ?", 1.minute.ago)
+                              ^
+/home/andrew/RubyProjects/10kClub/Rakefile:6:in `<top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+SyntaxError: /home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4: syntax error, unexpected ')', expecting =>
+created_at < ?", 1.minute.ago)
+                              ^
+/home/andrew/RubyProjects/10kClub/Rakefile:6:in `<top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+SyntaxError: /home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4: syntax error, unexpected ')', expecting =>
+created_at < ?", 1.minute.ago)
+                              ^
+/home/andrew/RubyProjects/10kClub/Rakefile:6:in `<top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+SyntaxError: /home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4: syntax error, unexpected ')', expecting =>
+created_at < ?", 1.minute.ago)
+                              ^
+/home/andrew/RubyProjects/10kClub/Rakefile:6:in `<top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+SyntaxError: /home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4: syntax error, unexpected ')', expecting =>
+created_at < ?", 1.minute.ago)
+                              ^
+/home/andrew/RubyProjects/10kClub/Rakefile:6:in `<top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+SyntaxError: /home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4: syntax error, unexpected ')', expecting =>
+created_at < ?", 1.minute.ago)
+                              ^
+/home/andrew/RubyProjects/10kClub/Rakefile:6:in `<top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+SyntaxError: /home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4: syntax error, unexpected ')', expecting =>
+created_at < ?", 1.minute.ago)
+                              ^
+/home/andrew/RubyProjects/10kClub/Rakefile:6:in `<top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+SyntaxError: /home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4: syntax error, unexpected ')', expecting =>
+created_at < ?", 1.minute.ago)
+                              ^
+/home/andrew/RubyProjects/10kClub/Rakefile:6:in `<top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+SyntaxError: /home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4: syntax error, unexpected ')', expecting =>
+created_at < ?", 1.minute.ago)
+                              ^
+/home/andrew/RubyProjects/10kClub/Rakefile:6:in `<top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+SyntaxError: /home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:4: syntax error, unexpected ')', expecting =>
+created_at < ?", 1.minute.ago)
+                              ^
+/home/andrew/RubyProjects/10kClub/Rakefile:6:in `<top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+rake aborted!
+NoMethodError: undefined method `each' for nil:NilClass
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:6:in `block (2 levels) in <top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+Tasks: TOP => buy_requests:delete_after_38_hours
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated

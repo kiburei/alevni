@@ -22,6 +22,10 @@ env :PATH, ENV['PATH']
 set :environment, "development"
 set :output, {:error => "log/cron_error_log.log", :standard => "log/cron_log.log"}
 
-every 1.minute do
+every 59.minutes do
 	rake "buy_requests:delete_after_38_hours"
+end
+
+every 5.minute do
+	rake "expire_sale:expire_sale_requests"
 end

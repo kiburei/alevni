@@ -1355,3 +1355,300 @@ Tasks: TOP => buy_requests:delete_after_38_hours
 /home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
 /home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
 /home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+SyntaxError: /home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:15: syntax error, unexpected tCONSTANT, expecting ')'
+.where("validity_days >?" Date.today)
+                              ^
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:15: syntax error, unexpected ')', expecting keyword_end
+"validity_days >?" Date.today)
+                              ^
+/home/andrew/RubyProjects/10kClub/Rakefile:6:in `<top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+SyntaxError: /home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:15: syntax error, unexpected tCONSTANT, expecting ')'
+.where("validity_days >?" Date.today)
+                              ^
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:15: syntax error, unexpected ')', expecting keyword_end
+"validity_days >?" Date.today)
+                              ^
+/home/andrew/RubyProjects/10kClub/Rakefile:6:in `<top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+SyntaxError: /home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:15: syntax error, unexpected tCONSTANT, expecting ')'
+.where("validity_days >?" Date.today)
+                              ^
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:15: syntax error, unexpected ')', expecting keyword_end
+"validity_days >?" Date.today)
+                              ^
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:22: syntax error, unexpected keyword_end, expecting end-of-input
+/home/andrew/RubyProjects/10kClub/Rakefile:6:in `<top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+SyntaxError: /home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:15: syntax error, unexpected tCONSTANT, expecting ')'
+.where("validity_days >?" Date.today)
+                              ^
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:15: syntax error, unexpected ')', expecting keyword_end
+"validity_days >?" Date.today)
+                              ^
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:22: syntax error, unexpected keyword_end, expecting end-of-input
+/home/andrew/RubyProjects/10kClub/Rakefile:6:in `<top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+SyntaxError: /home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:15: syntax error, unexpected tCONSTANT, expecting ')'
+.where("validity_days >?" Date.today)
+                              ^
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:15: syntax error, unexpected ')', expecting keyword_end
+"validity_days >?" Date.today)
+                              ^
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:22: syntax error, unexpected keyword_end, expecting end-of-input
+/home/andrew/RubyProjects/10kClub/Rakefile:6:in `<top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+SyntaxError: /home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:15: syntax error, unexpected tCONSTANT, expecting ')'
+.where("validity_days >?" Date.today)
+                              ^
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:15: syntax error, unexpected ')', expecting keyword_end
+"validity_days >?" Date.today)
+                              ^
+/home/andrew/RubyProjects/10kClub/lib/tasks/buy_requests.rake:24: syntax error, unexpected keyword_end, expecting end-of-input
+/home/andrew/RubyProjects/10kClub/Rakefile:6:in `<top (required)>'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+Don't know how to build task 'buy_requests:delete_after_38_hours' (see --tasks)
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+rake aborted!
+Don't know how to build task 'buy_requests:delete_after_38_hours' (see --tasks)
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/andrew/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+(See full trace by running task with --trace)
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:51: warning: constant ::Fixnum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/xml_mini.rb:52: warning: constant ::Bignum is deprecated
+/home/andrew/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/activesupport-5.0.1/lib/active_support/core_ext/numeric/conversions.rb:138: warning: constant ::Fixnum is deprecated

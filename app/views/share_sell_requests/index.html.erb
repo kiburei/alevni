@@ -30,7 +30,7 @@
         <% if current_user.superadmin_role || current_user.supervisor_role %>
           <td><%= link_to 'Cancel', share_sell_request, method: :delete, data: { confirm: 'Are you sure?' },  class: 'btn btn-danger' %></td>
         <% else %>
-          <% if share_sell_request.validity_days < Date.today %>
+          <% if share_sell_request.validity_days > Date.today %>
             <td><%= link_to 'Cancel', share_sell_request, method: :delete, data: { confirm: 'Are you sure?' },  class: 'btn btn-danger' %></td>
           <% end %>
         <% end %>

@@ -4,7 +4,7 @@ class ShareBuyRequestsController < ApplicationController
   # GET /share_buy_requests
   # GET /share_buy_requests.json
   def transfer
-    @share_buy_request.shares.update_all(user_id: @share_buy_request.user_id, share_sell_request_id: nil)
+    @share_buy_request.shares.update_all(user_id: @share_buy_request.user_id, share_sell_request_id: nil, status: true)
     @share_buy_request.update(status: true)
     # send user emil of successfullpurchase of shares
     UserMailer.transfer_shares(@share_buy_request).deliver

@@ -20,4 +20,9 @@ class UserMailer < ApplicationMailer
     mail to: @user.email, subject: "Transfer of Shares Successful"
   end
 
+  def expire_account(user)
+    @user = user
+    mail to: @user.email, subject: "Account Has Expired"
+  end
+
 end

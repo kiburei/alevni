@@ -13,8 +13,9 @@
   <%= render 'shared/navigation' %>
 </div>
   <div id="main-container" class="container-fluid">
-    
+
   <% if user_signed_in? %>
+    <% if current_user.end_subscription > Date.today %>
     <% if Property.all.empty? == false && Property.last.EndOffer > Date.today %>
       <div class="row offer">
         <div class="trending col-md-12">
@@ -43,7 +44,10 @@
       </div>
 
     <% end %>
+
+    <% end %>
   <% end %>
+  <% if current_user.end_subscription > Date.today %>
   <div id="main-container" class="container-fluid">
             <div class="row">
               <div id="content" class="col-xs-11">
@@ -69,6 +73,12 @@
 
             </div>
   </div>
+  <% else %>
+  <p class="expire">Your membership subscription has expired. Please renew  to regain full access to you account</p>
+    <iframe src="http://invela.co.ke/membership-renewal.html" width="600" height="900" scrolling="no">
+       Please Wait! Loading Form.
+    </iframe>
+  <% end %>
 
 
 </div>

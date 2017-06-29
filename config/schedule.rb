@@ -29,3 +29,7 @@ end
 every 1.day do
 	rake "expire_sale:expire_sale_requests"
 end
+
+every 1.day do
+	rake "account_expiry:send_email_after_365days"
+end

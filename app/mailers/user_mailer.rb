@@ -20,9 +20,16 @@ class UserMailer < ApplicationMailer
     mail to: @user.email, subject: "Transfer of Shares Successful"
   end
 
-  def expire_account(user)
-    @user = user
-    mail to: @user.email, subject: "Account Has Expired"
+  def expire_account
+    @expired_accounts = User.where("end_subscription <?", Date.today);
+    @expired_accounts.each do |send_mail|
+        if send_mail.email == "akiburei@gmail.com"
+          @email = send_mail.email
+          puts send_mail.email
+          mail to: @email, subject: "Account Has Expired"
+          puts "mail should be tumwad"
+        end
+      end
   end
 
 end

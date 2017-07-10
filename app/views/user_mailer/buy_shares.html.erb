@@ -14,6 +14,10 @@
     <td><%= @user.member_code %></td>
   </tr>
   <tr>
+    <td>PROPERTY:</td>
+    <td><%= Property.find(@share_buy_request.property_id).Code %></td>
+  </tr>
+  <tr>
     <td>Number of Share(s):</td>
     <td><%= @share_buy_request.no_of_shares %></td>
   </tr>

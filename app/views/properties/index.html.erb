@@ -1,3 +1,49 @@
+<style>
+  .button {
+  background-color: #004A7F;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+@keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+.button {
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+</style>
 <p id="notice"><%= notice %></p>
 <div class="modals">
   <div id="buy_shares"></div>
@@ -48,8 +94,8 @@
           <td><%= property.Rate %>%</td>
           <!-- <td><%= link_to new_property_share_buy_request_path(:property_id => property.id), remote: true, class: 'btn btn-success' do %>
             BUY <%= property.shares.where(user_id: nil, status: false).count %><% end %></td> -->
-          <td><%= link_to property, class: 'btn btn-success' do %>
-             <%= property.shares.where.not(user_id: nil, status: true).count %><% end %></td>
+          <td><%= link_to property, class: 'button' do %>
+             <%= property.shares.where.not(user_id: nil, status: true).count %> SHARE OFFERS<% end %></td>
           <% if current_user.user_role? || current_user.user_role?%>
            <% if property.shares.where("user_id =?", current_user).count > 0 %>
              <td><%= link_to new_property_share_sell_request_path(:property_id => property.id), remote: true, class: 'btn btn-danger'  do %>

@@ -19,7 +19,7 @@ class PropertiesController < ApplicationController
   # GET /properties.json
   def index
     # @properties = current_user.properties.find(params[:id])
-    @properties = Property.where("EndOffer <?", Date.today)
+    @properties = Property.where("EndOffer <=?", Date.today)
   end
 
   # GET /properties/1

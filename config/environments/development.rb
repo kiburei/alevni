@@ -19,12 +19,12 @@ Rails.application.configure do
   # Don't care if the mailer can't send.
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.default_url_options = { host:'localhost', port: '3000' }
+  config.action_mailer.default_url_options = { host:'10kclub.invela.co.ke', port: '3000' }
   config.action_mailer.default :charset => "utf-8"
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
     enable_starttls_auto: true,
-    domain: "localhost:3000",
+    domain: "10kclub.invela.co.ke:3000",
     address: "smtp.gmail.com",
     authentication: "plain",
     user_name: "invelakenya@gmail.com",

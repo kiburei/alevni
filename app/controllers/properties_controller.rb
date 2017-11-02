@@ -27,7 +27,7 @@ class PropertiesController < ApplicationController
   def show
     @property = Property.find(params[:id])
     @sell_requests = @property.share_sell_requests.where.not(user_id: current_user)
-    @share_sell_requests = @sell_requests.where("validity_days >?", Date.today)
+    @share_sell_requests = @sell_requests.where("validity_days >=?", Date.today)
     # @shares = @property.shares
     if current_user.superadmin_role? && current_user.supervisor_role?
       @shares = @property.shares

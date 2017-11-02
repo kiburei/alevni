@@ -21,12 +21,15 @@ class UserMailer < ApplicationMailer
   end
 
   def expire_accounts
-    @accounts =  User.where("end_subscription =?", Date.today)
+    @accounts = User.where("end_subscription =?", Date.today)
     @accounts = @accounts.where(active: true)
     @accounts.update(active: false)
     @accounts.each do |account|
-        mail to: account.email, subject: "Account Renewal"
+        mail to: "kiburei@gmail.com", cc: "gooddeeds17@gmail.com", subject: "Account Renewal"
+        puts "we good"
       end
   end
 
 end
+
+
